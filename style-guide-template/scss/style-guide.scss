@@ -1,13 +1,8 @@
 
 @import 'partials/prefix-mixins';
 @import 'partials/layout'; // responsive grid and media queries
-@import 'partials/color'; // New Color Palette from Paletton.com
-@import url('https://fonts.googleapis.com/css?family=VT323');
-@font-face {
-    font-family: p7;
-    src: url(assets/fonts/'computer_pixel-7.ttf');
-}
-
+@import 'partials/colors'; // New Color Palette from Paletton.com
+@import 'partials/typography';// Typefaces
 
 
 // additional colors
@@ -39,7 +34,7 @@ xPatterns
 
 .cd-box {
 	/* this is the container of various design elements - i.e. the 2 logo of the branding section */
-	border: 1px solid $color-4;
+	border: 1px solid black;
 	border-radius: 3px;
 	background: $color-5;
 	box-shadow: 0 1px 1px rgba(#000, .05);
