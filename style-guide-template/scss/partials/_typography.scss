@@ -6,8 +6,13 @@
     src: url(assets/fonts/computer_pixel_7/'computer_pixel-7.ttf');
 }
 
+@font-face{
+    font-family: lcd;
+    src: url(assets/fonts/LCD_Solid.ttf);
+}
+
 $primary-font: 'VT323', monospace;
-$secondary-font: 'Open Sans', sans-serif;
+$secondary-font: 'lcd';
 
 
 h1, h2 {

@@ -1,9 +1,5 @@
 // SASS style sheet */
 // Palette color codes */
-// Palette URL: http://paletton.com/#uid=7361q0kt9rkiBypnztTuUlXBBgY */
-
-// Feel free to copy&paste color codes to your application */
-
 
 // As hex codes */
 /* green */
@@ -13,57 +9,55 @@ $color-1-2: #2AA076;
 $color-1-3: #04754D;
 $color-1-4: #005B3B;
 
-/* purple 8/
-$color-secondary-1-0: #521893;	// Main Secondary color (1) */
-$color-2: #8053B3;
-$color-secondary-1-2: #6734A1;
-$color-secondary-1-3: #3E0D76;
-$color-secondary-1-4: #2E065B;
+/* purple */
+$color-1: #521893;	// Main Secondary color (1) */
+$color-2-1: #8053B3;
+$color-2-2: #6734A1;
+$color-2-3: #3E0D76;
+$color-2-4: #2E065B;
 
 /* yellow */
 $color-3: #DACB13;	// Main Secondary color (2) */
-$color-secondary-2-1: #FFF46B;
-$color-secondary-2-2: #EEE13F;
-$color-secondary-2-3: #AFA206;
-$color-secondary-2-4: #877D00;
+$color-3-1: #FFF46B;
+$color-3-2: #EEE13F;
+$color-3-3: #AFA206;
+$color-3-4: #877D00;
 
 /* orange */
 $color-4: #DA5413;	// Main Complement color */
-$color-complement-1: #FF9B6B;
-$color-complement-2: #EE783F;
-$color-complement-3: #AF3D06;
-$color-complement-4: #872C00;
+$color-4-1: #FF9B6B;
+$color-4-2: #EE783F;
+$color-4-3: #AF3D06;
+$color-4-4: #872C00;
 
 /* white */
 $color-5: #ffffff;
 
-
-
 // As RGBa codes */
 /* green */
-$rgba-primary-0: rgba( 13,146, 99,1);	// Main Primary color */
-$rgba-primary-1: rgba( 74,177,141,1);
-$rgba-primary-2: rgba( 42,160,118,1);
-$rgba-primary-3: rgba(  4,117, 77,1);
-$rgba-primary-4: rgba(  0, 91, 59,1);
+$rgba-1: rgba( 13,146, 99,1);	// Main Primary color */
+$rgba-1-1: rgba( 74,177,141,1);
+$rgba-1-2: rgba( 42,160,118,1);
+$rgba-1-3: rgba(  4,117, 77,1);
+$rgba-1-4: rgba(  0, 91, 59,1);
 
-/* purple 8/
-$rgba-secondary-1-0: rgba( 82, 24,147,1);	// Main Secondary color (1) */
-$rgba-secondary-1-1: rgba(128, 83,179,1);
-$rgba-secondary-1-2: rgba(103, 52,161,1);
-$rgba-secondary-1-3: rgba( 62, 13,118,1);
-$rgba-secondary-1-4: rgba( 46,  6, 91,1);
+/* purple */
+$rgba-2: rgba( 82, 24,147,1);	// Main Secondary color (1) */
+$rgba-2-1: rgba(128, 83,179,1);
+$rgba-2-2: rgba(103, 52,161,1);
+$rgba-2-3: rgba( 62, 13,118,1);
+$rgba-2-4: rgba( 46,  6, 91,1);
 
 /* yellow */
-$rgba-secondary-2-0: rgba(218,203, 19,1);	// Main Secondary color (2) */
-$rgba-secondary-2-1: rgba(255,244,107,1);
-$rgba-secondary-2-2: rgba(238,225, 63,1);
-$rgba-secondary-2-3: rgba(175,162,  6,1);
-$rgba-secondary-2-4: rgba(135,125,  0,1);
+$rgba-3: rgba(218,203, 19,1);	// Main Secondary color (2) */
+$rgba-3-1: rgba(255,244,107,1);
+$rgba-3-2: rgba(238,225, 63,1);
+$rgba-3-3: rgba(175,162,  6,1);
+$rgba-3-4: rgba(135,125,  0,1);
 
 /* orange */
-$rgba-complement-0: rgba(218, 84, 19,1);	// Main Complement color */
-$rgba-complement-1: rgba(255,155,107,1);
-$rgba-complement-2: rgba(238,120, 63,1);
-$rgba-complement-3: rgba(175, 61,  6,1);
-$rgba-complement-4: rgba(135, 44,  0,1);
+$rgba-4: rgba(218, 84, 19,1);	// Main Complement color */
+$rgba-4-1: rgba(255,155,107,1);
+$rgba-4-2: rgba(238,120, 63,1);
+$rgba-4-3: rgba(175, 61,  6,1);
+$rgba-4-4: rgba(135, 44,  0,1);

@@ -1,24 +1,16 @@
-
+//Imports
 @import 'partials/prefix-mixins';
 @import 'partials/layout'; // responsive grid and media queries
 @import 'partials/colors'; // New Color Palette from Paletton.com
 @import 'partials/typography';// Typefaces
-
 
 // additional colors
 
 $success: #6fce72; // green
 $alert: #ff0000;  // red
 
-// fonts
-
-$primary-font: 'Merriweather', serif;
-$secondary-font: 'Open Sans', sans-serif;
-
 /* -------------------------------- 
-
 xBackground 
-
 -------------------------------- */
 
 body {
@@ -27,9 +19,7 @@ body {
 }
 
 /* -------------------------------- 
-
 xPatterns
-
 -------------------------------- */
 
 .cd-box {
@@ -42,9 +32,7 @@ xPatterns
 }
 
 /* -------------------------------- 
-
 xNavigation 
-
 -------------------------------- */
 
 header {
@@ -85,8 +73,6 @@ header {
 		}
 	}
 }
-
-
 
 .cd-nav-trigger span {
 	/* hamburger menu */
@@ -130,9 +116,7 @@ header {
 }
 
 /* -------------------------------- 
-
 xPage title 
-
 -------------------------------- */
 
 main > h1 {
@@ -144,11 +128,8 @@ main > h1 {
 	}
 }
 
-
 /* -------------------------------- 
-
 xButtons 
-
 -------------------------------- */
 
 .btn {
@@ -210,9 +191,7 @@ xButtons
 }
 
 /* -------------------------------- 
-
 xIcons 
-
 -------------------------------- */
 
 .cd-icons li {
