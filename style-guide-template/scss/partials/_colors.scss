@@ -1,62 +1,64 @@
-// SASS style sheet */
-// Palette color codes */
+// SASS style sheet
+// Palette color codes
 
-// As hex codes */
-/* green */
-$color-1: #0D9263;	// Main Primary color */
+// As hex codes
+// Green
+$color-1: #0D9263;	// Main Primary Color
 $color-1-1: #4AB18D;
 $color-1-2: #2AA076;
 $color-1-3: #04754D;
 $color-1-4: #005B3B;
 
-/* purple */
-$color-2: #521893;	// Main Secondary color (1) */
+//Purple
+$color-2: #521893;	// Secondary Color
 $color-2-1: #8053B3;
 $color-2-2: #6734A1;
 $color-2-3: #3E0D76;
 $color-2-4: #2E065B;
 
-/* yellow */
-$color-3: #DACB13;	// Main Secondary color (2) */
+//Yellow
+$color-3: #DACB13;	// Secondary Complement Color
 $color-3-1: #FFF46B;
 $color-3-2: #EEE13F;
 $color-3-3: #AFA206;
 $color-3-4: #877D00;
 
-/* orange */
-$color-4: #DA5413;	// Main Complement color */
+//Orange
+$color-4: #DA5413;	// Main Complement Color
 $color-4-1: #FF9B6B;
 $color-4-2: #EE783F;
 $color-4-3: #AF3D06;
 $color-4-4: #872C00;
 
-/* white */
+//White
 $color-5: #ffffff;
 
-// As RGBa codes */
-/* green */
-$rgba-1: rgba( 13,146, 99,1);	// Main Primary color */
+
+
+// As RGBa codes
+//Green
+$rgba-1: rgba( 13,146, 99,1);	// Main Primary Color
 $rgba-1-1: rgba( 74,177,141,1);
 $rgba-1-2: rgba( 42,160,118,1);
 $rgba-1-3: rgba(  4,117, 77,1);
 $rgba-1-4: rgba(  0, 91, 59,1);
 
-/* purple */
-$rgba-2: rgba( 82, 24,147,1);	// Main Secondary color (1) */
+//Purple
+$rgba-2: rgba( 82, 24,147,1);	// Secondary Color
 $rgba-2-1: rgba(128, 83,179,1);
 $rgba-2-2: rgba(103, 52,161,1);
 $rgba-2-3: rgba( 62, 13,118,1);
 $rgba-2-4: rgba( 46,  6, 91,1);
 
-/* yellow */
-$rgba-3: rgba(218,203, 19,1);	// Main Secondary color (2) */
+//Yellow
+$rgba-3: rgba(218,203, 19,1);	// Secondary Complement Color
 $rgba-3-1: rgba(255,244,107,1);
 $rgba-3-2: rgba(238,225, 63,1);
 $rgba-3-3: rgba(175,162,  6,1);
 $rgba-3-4: rgba(135,125,  0,1);
 
-/* orange */
-$rgba-4: rgba(218, 84, 19,1);	// Main Complement color */
+//Orange
+$rgba-4: rgba(218, 84, 19,1);	// Main Complement Color
 $rgba-4-1: rgba(255,155,107,1);
 $rgba-4-2: rgba(238,120, 63,1);
 $rgba-4-3: rgba(175, 61,  6,1);

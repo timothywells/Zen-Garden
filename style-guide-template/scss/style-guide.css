@@ -1,12 +1,3 @@
-/* green */
-/* purple */
-/* yellow */
-/* orange */
-/* white */
-/* green */
-/* purple */
-/* yellow */
-/* orange */
 @import url("https://fonts.googleapis.com/css?family=VT323");
 @font-face {
   font-family: computer_pixel-7;
@@ -157,13 +148,13 @@ xButtons
   .no-touch .btn:hover {
     background: #0fa973; }
   .btn.btn-success {
-    background: #6fce72; }
+    background: #4AB18D; }
     .no-touch .btn.btn-success:hover {
-      background: #82d485; }
+      background: #5aba99; }
   .btn.btn-alert {
-    background: #ff0000; }
+    background: #DA5413; }
     .no-touch .btn.btn-alert:hover {
-      background: #ff1a1a; }
+      background: #eb5f1b; }
   .btn.btn-outline {
     color: #0D9263;
     background: transparent;
@@ -203,11 +194,11 @@ input[type=text] {
   padding: .6em 1em;
   box-shadow: inset 1px 1px rgba(0, 0, 0, 0.03); }
   input[type=text].success {
-    border-color: #6fce72;
-    box-shadow: 0 0 6px rgba(111, 206, 114, 0.2); }
+    border-color: #4AB18D;
+    box-shadow: 0 0 6px rgba(74, 177, 141, 0.2); }
   input[type=text].alert {
-    border-color: #ff0000;
-    box-shadow: 0 0 6px rgba(255, 0, 0, 0.2); }
+    border-color: #DA5413;
+    box-shadow: 0 0 6px rgba(218, 84, 19, 0.2); }
   input[type=text]:focus {
     border-color: #0D9263;
     box-shadow: 0 0 6px rgba(13, 146, 99, 0.2); }
