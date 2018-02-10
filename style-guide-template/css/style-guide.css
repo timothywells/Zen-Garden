@@ -6,6 +6,14 @@
 @font-face {
   font-family: lcd;
   src: url(assets/fonts/LCD_Solid.ttf); }
+/* -------------------------------- Page title -------------------------------- */
+main > h1 {
+  color: #521893; }
+  @media only screen and (min-width: 1600px) {
+    main > h1 {
+      /* title goes into the header on big devices */
+      color: #ffffff; } }
+
 /* --------------------------------Headers --------------------------------*/
 h1, h2 {
   font-family: "cp-7";
@@ -53,15 +61,6 @@ p {
 body {
   /* this is the page background */
   background-color: #ffffff; }
-
-/* -------------------------------- Patterns -------------------------------- */
-.cd-box {
-  /* this is the container of various design elements - i.e. the 2 logo of the branding section */
-  border: 1px solid black;
-  border-radius: 3px;
-  background: #ffffff;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-  padding: 6px; }
 
 /* -------------------------------- Navigation -------------------------------- */
 header {
@@ -117,17 +116,16 @@ header {
       /* right arrow color */
       border-color: #0D9263; }
 
-/* -------------------------------- Page title -------------------------------- */
-main > h1 {
-  color: #521893; }
-  @media only screen and (min-width: 1600px) {
-    main > h1 {
-      /* title goes into the header on big devices */
-      color: #ffffff; } }
+/* -------------------------------- Patterns -------------------------------- */
+.cd-box {
+  /* this is the container of various design elements - i.e. the 2 logo of the branding section */
+  border: 1px solid black;
+  border-radius: 3px;
+  background: #ffffff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  padding: 6px; }
 
-/* -------------------------------- 
-xButtons 
--------------------------------- */
+/* -------------------------------- Buttons -------------------------------- */
 .btn {
   border: none;
   box-shadow: none;
@@ -164,12 +162,6 @@ xButtons
 .cd-buttons .cd-box:nth-of-type(2) span {
   /* CSS class name color */
   color: #0D9263; }
-
-/* -------------------------------- Icons -------------------------------- */
-.cd-icons li {
-  /* icons size */
-  width: 32px;
-  height: 32px; }
 
 /* -------------------------------- Form -------------------------------- */
 input[type=text], select {
@@ -277,6 +269,12 @@ select {
   -ms-appearance: none;
   -o-appearance: none;
   appearance: none; }
+
+/* -------------------------------- Icons -------------------------------- */
+.cd-icons li {
+  /* icons size */
+  width: 32px;
+  height: 32px; }
 
 /* -------------------------------- Basic style -------------------------------- */
 *, *::after, *::before {
