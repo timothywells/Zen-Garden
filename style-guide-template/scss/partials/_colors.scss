@@ -1,5 +1,6 @@
 // SASS style sheet
-// Palette color codes
+
+// Main Color Palette color codes
 
 // As hex codes
 // Green
@@ -30,11 +31,6 @@ $color-4-2: #EE783F;
 $color-4-3: #AF3D06;
 $color-4-4: #872C00;
 
-//White
-$color-5: #ffffff;
-
-
-
 // As RGBa codes
 //Green
 $rgba-1: rgba( 13,146, 99,1);	// Main Primary Color
@@ -63,3 +59,10 @@ $rgba-4-1: rgba(255,155,107,1);
 $rgba-4-2: rgba(238,120, 63,1);
 $rgba-4-3: rgba(175, 61,  6,1);
 $rgba-4-4: rgba(135, 44,  0,1);
+
+
+// Additional Colors
+$success: $color-1-1; // green
+$alert: $color-4;  // red-orange
+$color-5: #ffffff; //White
+

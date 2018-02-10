@@ -1,10 +1,9 @@
+/* -------------------------------- Fonts -------------------------------- */
 @import url("https://fonts.googleapis.com/css?family=VT323");
-@font-face {
-  font-family: computer_pixel-7;
-  src: url(assets/fonts/computer_pixel_7/"computer_pixel-7.ttf"); }
 @font-face {
   font-family: lcd;
   src: url(assets/fonts/LCD_Solid.ttf); }
+/* --------------------------------Headers --------------------------------*/
 h1, h2 {
   font-family: "lcd";
   color: #521893; }
@@ -34,6 +33,7 @@ section > h2::before {
   /* number before each section title */
   color: #94390d; }
 
+/* -------------------------------- Body Font -------------------------------- */
 p {
   font-size: 1.4rem;
   line-height: 1.4;
@@ -46,16 +46,12 @@ p {
       font-size: 1.6rem;
       line-height: 1.6; } }
 
-/* -------------------------------- 
-xBackground 
--------------------------------- */
+/* -------------------------------- Background -------------------------------- */
 body {
   /* this is the page background */
   background-color: #ffffff; }
 
-/* -------------------------------- 
-xPatterns
--------------------------------- */
+/* -------------------------------- Patterns -------------------------------- */
 .cd-box {
   /* this is the container of various design elements - i.e. the 2 logo of the branding section */
   border: 1px solid black;
@@ -64,9 +60,7 @@ xPatterns
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   padding: 6px; }
 
-/* -------------------------------- 
-xNavigation 
--------------------------------- */
+/* -------------------------------- Navigation -------------------------------- */
 header {
   background-color: #521893; }
 
@@ -120,9 +114,7 @@ header {
       /* right arrow color */
       border-color: #0D9263; }
 
-/* -------------------------------- 
-xPage title 
--------------------------------- */
+/* -------------------------------- Page title -------------------------------- */
 main > h1 {
   color: #521893; }
   @media only screen and (min-width: 1600px) {
@@ -170,19 +162,13 @@ xButtons
   /* CSS class name color */
   color: #0D9263; }
 
-/* -------------------------------- 
-xIcons 
--------------------------------- */
+/* -------------------------------- Icons -------------------------------- */
 .cd-icons li {
   /* icons size */
   width: 32px;
   height: 32px; }
 
-/* -------------------------------- 
-
-xForm 
-
--------------------------------- */
+/* -------------------------------- Form -------------------------------- */
 input[type=text], select {
   border: 1px solid #DA5413;
   border-radius: .25em;
@@ -289,11 +275,7 @@ select {
   -o-appearance: none;
   appearance: none; }
 
-/* -------------------------------- 
-
-xBasic style
-
--------------------------------- */
+/* -------------------------------- Basic style -------------------------------- */
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -605,7 +587,7 @@ section {
       section:nth-of-type(2n) {
         margin-right: 0; } }
 
-/* xColor section - basic style */
+/* -------------------------------- Color section - basic style -------------------------------- */
 .cd-colors li {
   text-align: center;
   width: 48%;
@@ -683,7 +665,7 @@ section {
     .cd-form .cd-box .cd-box {
       padding: 2em; } }
 
-/* xTypography section - basic style */
+/* -------------------------------- Typography section - basic style -------------------------------- */
 .cd-typography h1::before {
   content: 'Aa - ';
   color: #0D9263; }

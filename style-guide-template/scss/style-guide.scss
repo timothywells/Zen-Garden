@@ -4,23 +4,14 @@
 @import 'partials/colors'; // New Color Palette from Paletton.com
 @import 'partials/typography';// Typefaces
 
-// additional colors
-
-$success: $color-1-1; // green
-$alert: $color-4;  // red-orange
-
-/* -------------------------------- 
-xBackground 
--------------------------------- */
+/* -------------------------------- Background -------------------------------- */
 
 body {
 	/* this is the page background */
 	background-color: $color-5;
 }
 
-/* -------------------------------- 
-xPatterns
--------------------------------- */
+/* -------------------------------- Patterns -------------------------------- */
 
 .cd-box {
 	/* this is the container of various design elements - i.e. the 2 logo of the branding section */
@@ -31,9 +22,7 @@ xPatterns
 	padding: 6px;
 }
 
-/* -------------------------------- 
-xNavigation 
--------------------------------- */
+/* -------------------------------- Navigation -------------------------------- */
 
 header {
 	background-color: $color-2;
@@ -115,9 +104,7 @@ header {
 	}
 }
 
-/* -------------------------------- 
-xPage title 
--------------------------------- */
+/* -------------------------------- Page title -------------------------------- */
 
 main > h1 {
 	color: $color-2;
@@ -190,9 +177,7 @@ xButtons
 	color: $color-1;
 }
 
-/* -------------------------------- 
-xIcons 
--------------------------------- */
+/* -------------------------------- Icons -------------------------------- */
 
 .cd-icons li {
 	/* icons size */
@@ -200,11 +185,7 @@ xIcons
 	height: 32px;
 }
 
-/* -------------------------------- 
-
-xForm 
-
--------------------------------- */
+/* -------------------------------- Form -------------------------------- */
 
 input[type=text], select {
 	border: 1px solid $color-4;
