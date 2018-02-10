@@ -1,11 +1,14 @@
 /* -------------------------------- Fonts -------------------------------- */
 @import url("https://fonts.googleapis.com/css?family=VT323");
 @font-face {
+  font-family: cp-7;
+  src: url(assets/fonts/computer_pixel_7/"computer_pixel-7.ttf"); }
+@font-face {
   font-family: lcd;
   src: url(assets/fonts/LCD_Solid.ttf); }
 /* --------------------------------Headers --------------------------------*/
 h1, h2 {
-  font-family: "lcd";
+  font-family: "cp-7";
   color: #521893; }
 
 h1 {
@@ -130,7 +133,7 @@ xButtons
   box-shadow: none;
   border-radius: .25em;
   font-size: 1.4rem;
-  font-family: "lcd";
+  font-family: "cp-7";
   color: #ffffff;
   padding: .6em 2.2em;
   cursor: pointer;
