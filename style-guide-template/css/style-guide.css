@@ -1,11 +1,6 @@
 /* -------------------------------- Fonts -------------------------------- */
 @import url("https://fonts.googleapis.com/css?family=VT323");
-@font-face {
-  font-family: cp-7;
-  src: url(assets/fonts/computer_pixel_7/"computer_pixel-7.ttf"); }
-@font-face {
-  font-family: lcd;
-  src: url(assets/fonts/LCD_Solid.ttf); }
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
 /* -------------------------------- Page title -------------------------------- */
 main > h1 {
   color: #521893; }
@@ -16,7 +11,7 @@ main > h1 {
 
 /* --------------------------------Headers --------------------------------*/
 h1, h2 {
-  font-family: "cp-7";
+  font-family: "Press Start 2P", cursive;
   color: #521893; }
 
 h1 {
@@ -131,7 +126,7 @@ header {
   box-shadow: none;
   border-radius: .25em;
   font-size: 1.4rem;
-  font-family: "cp-7";
+  font-family: "Press Start 2P", cursive;
   color: #ffffff;
   padding: .6em 2.2em;
   cursor: pointer;

@@ -1,17 +1,20 @@
 
 /* -------------------------------- Fonts -------------------------------- */
-@import url('https://fonts.googleapis.com/css?family=VT323');
-@font-face {
-    font-family: cp-7;
-    src: url(assets/fonts/computer_pixel_7/'computer_pixel-7.ttf');
-}
-@font-face{
-    font-family: lcd;
-    src: url(assets/fonts/LCD_Solid.ttf);
-}
+@import url('https://fonts.googleapis.com/css?family=VT323'); //Body Font
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P'); //Header Font
+
+
+//@font-face {
+//    font-family: cp-7;
+//    src: url(assets/fonts/computer_pixel_7/'computer_pixel-7.ttf');
+//}
+//@font-face{
+//    font-family: lcd;
+//    src: url(assets/fonts/LCD_Solid.ttf);
+//}
 
 $primary-font: 'VT323', monospace;
-$secondary-font: 'cp-7';
+$secondary-font: 'Press Start 2P', cursive;
 
 /* -------------------------------- Page title -------------------------------- */
 main > h1 {
