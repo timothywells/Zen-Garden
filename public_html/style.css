@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css?family=VT323");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+div #zen-preamble h3 {
+  background: cyan;
+  border: 1px cyan solid;
+  border-radius: 5px;
+  padding: 25px;
+  text-align: center; }
+
+/* -------------------------------- Fonts -------------------------------- */
+/* -------------------------------- Page title -------------------------------- */
+main > h1 {
+  color: #0D9263; }
+  @media only screen and (min-width: 1600px) {
+    main > h1 {
+      /* title goes into the header on big devices */
+      color: #ffffff; } }
+
+/* --------------------------------Headers --------------------------------*/
+h1, h2, h3, h4 {
+  font-family: "Press Start 2P", cursive;
+  color: #521893; }
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 0 .4em; }
+  @media only screen and (min-width: 768px) {
+    h1 {
+      font-size: 3.2rem; } }
+  @media only screen and (min-width: 1024px) {
+    h1 {
+      font-size: 4rem; } }
+
+h2, h3, h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1em 0; }
+  @media only screen and (min-width: 768px) {
+    h2, h3, h4 {
+      font-size: 1.8rem;
+      margin: 1em 0 1.4em; } }
+
+section > h2::before {
+  /* number before each section title */
+  color: #94390d; }
+
+/* -------------------------------- Body Font -------------------------------- */
+p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #9149e1; }
+  p a {
+    color: #0D9263;
+    text-decoration: underline; }
+  @media only screen and (min-width: 768px) {
+    p {
+      font-size: 1.6rem;
+      line-height: 1.6; } }
+
+/* -------------------------------- Background -------------------------------- */
+body {
+  /* this is the page background */
+  background-color: #ffffff; }
+
+/* -------------------------------- Navigation -------------------------------- */
+header {
+  background-color: #521893; }
+
+.cd-logo {
+  /* logo box style */
+  background-color: #0D9263;
+  width: 120px; }
+  @media only screen and (min-width: 1024px) {
+    .cd-logo {
+      width: 180px; } }
+
+.cd-main-nav {
+  /* main navigation background color - full screen on small devices */
+  background: #521893; }
+  .cd-main-nav li a {
+    color: #ffffff;
+    border-color: #5e1ca9; }
+  @media only screen and (min-width: 1024px) {
+    .cd-main-nav li a {
+      color: #b98bec; }
+      .cd-main-nav li a.selected {
+        color: #ffffff;
+        box-shadow: 0 2px 0 #0D9263; }
+      .no-touch .cd-main-nav li a:hover {
+        color: #0D9263; } }
+
+.cd-nav-trigger span {
+  /* hamburger menu */
+  background-color: #ffffff; }
+  .cd-nav-trigger span::before, .cd-nav-trigger span::after {
+    /* upper and lower lines */
+    background-color: #ffffff; }
+
+.nav-is-visible .cd-nav-trigger span {
+  /* hide line in the center on mobile when nav is visible */
+  background-color: rgba(255, 255, 255, 0); }
+  .nav-is-visible .cd-nav-trigger span::before, .nav-is-visible .cd-nav-trigger span::after {
+    /* preserve visibility of upper and lower lines - close icon */
+    background-color: white; }
+
+.cd-download {
+  /* download button top-right visible on big devices */
+  background-color: #6a1fbf; }
+  .no-touch .cd-download:hover {
+    background-color: #7723d5; }
+  .cd-download span {
+    /* tooltip */
+    background: #0D9263;
+    color: #ffffff; }
+    .cd-download span::before {
+      /* right arrow color */
+      border-color: #0D9263; }
+
+/* -------------------------------- Patterns -------------------------------- */
+.cd-box {
+  /* this is the container of various design elements - i.e. the 2 logo of the branding section */
+  border: 1px solid black;
+  border-radius: 3px;
+  background: #ffffff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  padding: 6px; }
+
+/* -------------------------------- Buttons -------------------------------- */
+.btn {
+  border: none;
+  box-shadow: none;
+  border-radius: .25em;
+  font-size: 1.4rem;
+  font-family: "Press Start 2P", cursive;
+  color: #ffffff;
+  padding: .6em 2.2em;
+  cursor: pointer;
+  background: #0D9263; }
+  .btn:focus {
+    outline: none; }
+  .no-touch .btn:hover {
+    background: #0fa973; }
+  .btn.btn-success {
+    background: #4AB18D; }
+    .no-touch .btn.btn-success:hover {
+      background: #5aba99; }
+  .btn.btn-alert {
+    background: #DA5413; }
+    .no-touch .btn.btn-alert:hover {
+      background: #eb5f1b; }
+  .btn.btn-outline {
+    color: #0D9263;
+    background: transparent;
+    box-shadow: inset 0 0 0 1px #0D9263; }
+    .no-touch .btn.btn-outline:hover {
+      color: #ffffff;
+      background: #0D9263; }
+  @media only screen and (min-width: 768px) {
+    .btn {
+      font-size: 1.6rem; } }
+
+.cd-buttons .cd-box:nth-of-type(2) span {
+  /* CSS class name color */
+  color: #0D9263; }
+
+/*# sourceMappingURL=style.css.map */
