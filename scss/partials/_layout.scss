@@ -9,7 +9,7 @@ $L:     1600px;
 
 @mixin MQ($canvas) {
   @if $canvas == S {
-   @media only screen and (min-width: $S) { @content; } 
+   @media only screen and (max-width: $S) { @content; } 
   }
   @else if $canvas == M {
    @media only screen and (min-width: $M) { @content; } 
@@ -33,38 +33,56 @@ $L:     1600px;
     border-radius: 5px;
     padding: 25px;
     text-align: center;
-    color: black;
+    color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 div {
     #zen-preamble {
         h3 {
-            @include buttonLayout(cyan);
+            @include MQ(S) {
+                @include buttonLayout(cyan);
+            }
         }
     }
-    
+
     #zen-explanation {
         h3 {
-            @include buttonLayout(green);
+            @include MQ(S) {
+                @include buttonLayout(green);
+            }
         }
     }
-    
+
     #zen-participation {
         h3 {
-            @include buttonLayout(violet);
+            @include MQ(S) {
+                @include buttonLayout(violet);
+            }
         }
     }
-    
+
     #zen-benefits {
         h3 {
-            @include buttonLayout(orange);
+            @include MQ(S) {
+                @include buttonLayout(orange);
+            }
+        }
+    }
+
+    #zen-requirements {
+        h3 {
+            @include MQ(S) {
+                @include buttonLayout(red);
+            }
         }
     }
     
-    #zen-requirements {
+    #design-selection, #design-archives, #zen-resources {
         h3 {
-            @include buttonLayout(red);
+            @include MQ(S) {
+                @include buttonLayout(green);
+            }
         }
     }
 }
