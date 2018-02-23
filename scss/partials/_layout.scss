@@ -37,52 +37,83 @@ $L:     1600px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-div {
-    #zen-preamble {
-        h3 {
-            @include MQ(S) {
-                @include buttonLayout(cyan);
-            }
-        }
+.page-wrapper {
+    @include MQ(S) {
+        padding: 25px;
     }
+}
 
-    #zen-explanation {
-        h3 {
-            @include MQ(S) {
-                @include buttonLayout(green);
-            }
+header {
+    h1, h2 {
+        @include MQ(S) {
+            color: white;
         }
     }
+}
 
-    #zen-participation {
-        h3 {
-            @include MQ(S) {
-                @include buttonLayout(violet);
-            }
+#zen-preamble {
+    h3 {
+        @include MQ(S) {
+            @include buttonLayout(cyan);
         }
     }
+}
 
-    #zen-benefits {
-        h3 {
-            @include MQ(S) {
-                @include buttonLayout(orange);
-            }
+#zen-explanation {
+    h3 {
+        @include MQ(S) {
+            @include buttonLayout(green);
         }
     }
+}
 
-    #zen-requirements {
-        h3 {
-            @include MQ(S) {
-                @include buttonLayout(red);
-            }
+#zen-participation {
+    h3 {
+        @include MQ(S) {
+            @include buttonLayout(violet);
         }
     }
-    
-    #design-selection, #design-archives, #zen-resources {
-        h3 {
-            @include MQ(S) {
-                @include buttonLayout(green);
-            }
+}
+
+#zen-benefits {
+    h3 {
+        @include MQ(S) {
+            @include buttonLayout(orange);
+        }
+    }
+}
+
+#zen-requirements {
+    h3 {
+        @include MQ(S) {
+            @include buttonLayout(red);
+        }
+    }
+}
+
+#design-selection {
+    h3 {
+        @include MQ(S) {
+            @include buttonLayout(green);
+            content: "Select a Design";
+        }
+    }
+}
+
+#design-archives {
+    h3 {
+        @include MQ(S) {
+            @include buttonLayout(green);
+            content: "Archives";
+        }
+    }
+}
+
+#zen-resources {
+    h3 {
+        @include MQ(S) {
+            @include buttonLayout(green);
+            content: "Resources";
         }
     }
 }
