@@ -37,6 +37,33 @@ $L:     1600px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+// circle layout for sidebar links
+@mixin circleLinks($color) {
+    ul {
+        list-style-type: none;
+        
+        li {
+            border: 1px hidden black;
+            border-radius: 100%;
+            background: $color;
+            background-clip: content-box;
+            text-align: center;
+            width: 250px;
+            height: 250px;
+            margin-bottom: 25px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            
+            a {
+                text-decoration: none;
+                vertical-align: middle;
+                line-height: 250px;
+            }
+        }
+    }
+}
+
 .page-wrapper {
     @include MQ(S) {
         padding: 25px;
@@ -45,75 +72,105 @@ $L:     1600px;
 
 header {
     h1, h2 {
-        @include MQ(S) {
-            color: white;
+        color: white;
+        
+        @include MQ(M) {
+            text-align: center;
         }
     }
 }
 
+footer {
+    clear: both;
+    text-align: center;
+}
+
 #zen-preamble {
     h3 {
-        @include MQ(S) {
-            @include buttonLayout(cyan);
-        }
+        @include buttonLayout(cyan);
+    }
+    
+    p {
+        padding-left: 25px;
     }
 }
 
 #zen-explanation {
     h3 {
-        @include MQ(S) {
-            @include buttonLayout(green);
-        }
+        @include buttonLayout(green);
+    }
+    
+    p {
+        padding-left: 25px;
     }
 }
 
 #zen-participation {
     h3 {
-        @include MQ(S) {
-            @include buttonLayout(violet);
-        }
+        @include buttonLayout(violet);
+    }
+    
+    p {
+        padding-left: 25px;
     }
 }
 
 #zen-benefits {
     h3 {
-        @include MQ(S) {
-            @include buttonLayout(orange);
-        }
+        @include buttonLayout(orange);
+    }
+    
+    p {
+        padding-left: 25px;
     }
 }
 
 #zen-requirements {
     h3 {
-        @include MQ(S) {
-            @include buttonLayout(red);
-        }
+        @include buttonLayout(red);
+    }
+    
+    p {
+        padding-left: 25px;
     }
 }
 
 #design-selection {
     h3 {
-        @include MQ(S) {
-            @include buttonLayout(green);
-            content: "Select a Design";
-        }
+        @include buttonLayout(green);
     }
+    
+    @include circleLinks(yellow);
 }
 
 #design-archives {
     h3 {
-        @include MQ(S) {
-            @include buttonLayout(green);
-            content: "Archives";
-        }
+        @include buttonLayout(green);
     }
+    
+    @include circleLinks(yellow);
 }
 
 #zen-resources {
     h3 {
-        @include MQ(S) {
-            @include buttonLayout(green);
-            content: "Resources";
-        }
+        @include buttonLayout(green);
+    }
+    
+    @include circleLinks(yellow);
+}
+
+#zen-supporting {
+    @include MQ(M) {
+        width: 64%;
+        float: left;
+        clear: left;
+    }
+}
+
+aside {
+    @include MQ(M) {
+        width: 35%;
+        float: right;
+        clear: right;
     }
 }
