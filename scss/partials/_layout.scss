@@ -26,3 +26,45 @@ $L:     1600px;
   float: $float-direction;
 }
 
+// buttons for mobile
+@mixin buttonLayout($color) {
+    background: $color;
+    border: 1px $color solid;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div {
+    #zen-preamble {
+        h3 {
+            @include buttonLayout(cyan);
+        }
+    }
+    
+    #zen-explanation {
+        h3 {
+            @include buttonLayout(green);
+        }
+    }
+    
+    #zen-participation {
+        h3 {
+            @include buttonLayout(violet);
+        }
+    }
+    
+    #zen-benefits {
+        h3 {
+            @include buttonLayout(orange);
+        }
+    }
+    
+    #zen-requirements {
+        h3 {
+            @include buttonLayout(red);
+        }
+    }
+}
