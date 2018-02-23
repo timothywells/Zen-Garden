@@ -140,7 +140,9 @@ footer {
         @include buttonLayout(green);
     }
     
-    @include circleLinks(yellow);
+    @include MQ(M) {
+        @include circleLinks(yellow);
+    }
 }
 
 #design-archives {
@@ -148,7 +150,9 @@ footer {
         @include buttonLayout(green);
     }
     
-    @include circleLinks(yellow);
+    @include MQ(M) {
+        @include circleLinks(yellow);
+    }
 }
 
 #zen-resources {
@@ -156,7 +160,9 @@ footer {
         @include buttonLayout(green);
     }
     
-    @include circleLinks(yellow);
+    @include MQ(M) {
+        @include circleLinks(yellow);
+    }
 }
 
 #zen-supporting {
