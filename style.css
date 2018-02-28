@@ -280,7 +280,11 @@ header {
   /* CSS class name color */
   color: #0D9263; }
 
-#design-archives, #zen-resources {
+#design-archives {
   clear: both;
-  display: inline-block;
-  width: 50%; }
+  float: left;
+  width: 49%; }
+
+#zen-resources {
+  float: left;
+  width: 49%; }
