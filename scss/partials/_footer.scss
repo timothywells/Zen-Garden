@@ -1,0 +1,11 @@
+// Places the Archives and Resources at the bottom of the page
+#design-archives, #zen-resources {
+    clear: both;
+    
+    //Moves links to the right of the headers
+    //display: inline-flex
+    
+    //Moves links underneath the headers
+    display: inline-block;
+    width: 50%;
+}
