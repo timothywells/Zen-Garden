@@ -3,6 +3,11 @@
 @media only screen and (max-width: 768px) {
   .page-wrapper {
     padding: 25px; } }
+@media only screen and (min-width: 1024px) {
+  .page-wrapper {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto; } }
 
 @media only screen and (min-width: 1024px) {
   header h1, header h2 {
@@ -176,7 +181,6 @@ main > h1 {
 h1 {
   font-family: "Press Start 2P", cursive;
   color: white;
-  font-size: 2.4rem;
   font-weight: 300;
   line-height: 1.2;
   margin: 0 0 .4em; }
@@ -190,16 +194,14 @@ h1 {
 h2 {
   font-family: "Press Start 2P", cursive;
   color: white;
-  font-size: 2rem;
-  font-weight: 300;
-  line-height: 1.2;
+  line-height: 1.5;
   margin: 0 0 .4em; }
   @media only screen and (max-width: 768px) {
     h2 {
       font-size: 2.7rem; } }
   @media only screen and (min-width: 1024px) {
     h2 {
-      font-size: 3rem; } }
+      font-size: 2rem; } }
 
 h3, h4 {
   font-family: "Press Start 2P", cursive;
