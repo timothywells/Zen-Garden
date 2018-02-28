@@ -77,7 +77,6 @@ $L:     1600px;
 
 header {
     h1, h2 {
-               
         @include MQ(M) {
             text-align: center;
         }
@@ -87,6 +86,10 @@ header {
 footer {
     clear: both;
     text-align: center;
+}
+
+abbr {
+    text-decoration: none;
 }
 
 #zen-preamble {
@@ -142,26 +145,12 @@ footer {
 
 //
 #design-selection {
-    h3 {
-        @include buttonLayout(green);
-    }
-    
     @include MQ(M) {
-        @include circleLinks(yellow);
+        width: 35%;
+        float: right;
+        clear: right;
     }
-}
-
-#design-archives {
-    h3 {
-        @include buttonLayout(green);
-    }
-    
-    @include MQ(M) {
-        @include circleLinks(yellow);
-    }
-}
-
-#zen-resources {
+	
     h3 {
         @include buttonLayout(green);
     }
@@ -176,13 +165,5 @@ footer {
         width: 64%;
         float: left;
         clear: left;
-    }
-}
-
-aside {
-    @include MQ(M) {
-        width: 35%;
-        float: right;
-        clear: right;
     }
 }
