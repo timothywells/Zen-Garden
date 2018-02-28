@@ -17,6 +17,9 @@ footer {
   clear: both;
   text-align: center; }
 
+abbr {
+  text-decoration: none; }
+
 #zen-preamble h3 {
   background: cyan;
   border: 1px cyan solid;
@@ -72,6 +75,11 @@ footer {
 #zen-requirements p {
   padding-left: 25px; }
 
+@media only screen and (min-width: 1024px) {
+  #design-selection {
+    width: 35%;
+    float: right;
+    clear: right; } }
 #design-selection h3 {
   background: green;
   border: 1px green solid;
@@ -100,73 +108,11 @@ footer {
         vertical-align: middle;
         line-height: 250px; } }
 
-#design-archives h3 {
-  background: green;
-  border: 1px green solid;
-  border-radius: 5px;
-  padding: 25px;
-  text-align: center;
-  color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-@media only screen and (min-width: 1024px) {
-  #design-archives ul {
-    list-style-type: none; }
-    #design-archives ul li {
-      border: 1px hidden black;
-      border-radius: 100%;
-      background: yellow;
-      background-clip: content-box;
-      text-align: center;
-      width: 250px;
-      height: 250px;
-      margin-bottom: 25px;
-      margin-left: auto;
-      margin-right: auto;
-      display: block; }
-      #design-archives ul li a {
-        text-decoration: none;
-        vertical-align: middle;
-        line-height: 250px; } }
-
-#zen-resources h3 {
-  background: green;
-  border: 1px green solid;
-  border-radius: 5px;
-  padding: 25px;
-  text-align: center;
-  color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-@media only screen and (min-width: 1024px) {
-  #zen-resources ul {
-    list-style-type: none; }
-    #zen-resources ul li {
-      border: 1px hidden black;
-      border-radius: 100%;
-      background: yellow;
-      background-clip: content-box;
-      text-align: center;
-      width: 250px;
-      height: 250px;
-      margin-bottom: 25px;
-      margin-left: auto;
-      margin-right: auto;
-      display: block; }
-      #zen-resources ul li a {
-        text-decoration: none;
-        vertical-align: middle;
-        line-height: 250px; } }
-
 @media only screen and (min-width: 1024px) {
   #zen-supporting {
     width: 64%;
     float: left;
     clear: left; } }
-
-@media only screen and (min-width: 1024px) {
-  aside {
-    width: 35%;
-    float: right;
-    clear: right; } }
 
 /* -------------------------------- Fonts -------------------------------- */
 /* -------------------------------- Page title -------------------------------- */
@@ -333,3 +279,8 @@ header {
 .cd-buttons .cd-box:nth-of-type(2) span {
   /* CSS class name color */
   color: #0D9263; }
+
+#design-archives, #zen-resources {
+  clear: both;
+  display: inline-block;
+  width: 50%; }
