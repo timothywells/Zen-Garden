@@ -92,21 +92,22 @@ abbr {
   #design-selection ul {
     list-style-type: none; }
     #design-selection ul li {
-      border: 1px hidden black;
-      border-radius: 100%;
-      background: yellow;
-      background-clip: content-box;
       text-align: center;
-      width: 250px;
-      height: 250px;
+      max-width: 250px;
       margin-bottom: 25px;
       margin-left: auto;
       margin-right: auto;
       display: block; }
+      #design-selection ul li:nth-child(1)::before {
+        content: url("assets/filename.svg");
+        margin-left: auto;
+        margin-right: auto; }
       #design-selection ul li a {
         text-decoration: none;
-        vertical-align: middle;
-        line-height: 250px; } }
+        vertical-align: middle; }
+        #design-selection ul li a::before {
+          content: "\A";
+          white-space: pre; } }
 
 @media only screen and (min-width: 1024px) {
   #zen-supporting {
