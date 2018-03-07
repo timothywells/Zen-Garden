@@ -1,4 +1,6 @@
 
+$wrappercolor: rgba(255,255,255,.75);
+
 // breakpoints
    
 $S:     768px;   
@@ -57,7 +59,56 @@ $L:     1600px;
             
 	    &:nth-child(1)::before {
 		//Add the images for the links here. Copy and adjust for each one
-		    content: url("assets/filename.svg");
+		    content: url('scss/assets/modern.png');
+		//Center the image
+		    margin-left: auto;
+		    margin-right: auto;
+	    }
+		&:nth-child(2)::before {
+		//Add the images for the links here. Copy and adjust for each one
+		    content: url('scss/assets/garment.png');
+		//Center the image
+		    margin-left: auto;
+		    margin-right: auto;
+	    }
+		&:nth-child(3)::before {
+		//Add the images for the links here. Copy and adjust for each one
+		    content: url('scss/assets/steel_beam.png');
+		//Center the image
+		    margin-left: auto;
+		    margin-right: auto;
+	    }
+		&:nth-child(4)::before {
+		//Add the images for the links here. Copy and adjust for each one
+		    content: url('scss/assets/potion_bottle.png');
+		//Center the image
+		    margin-left: auto;
+		    margin-right: auto;
+	    }
+		&:nth-child(5)::before {
+		//Add the images for the links here. Copy and adjust for each one
+		    content: url('scss/assets/screen.png');
+		//Center the image
+		    margin-left: auto;
+		    margin-right: auto;
+	    }
+		&:nth-child(6)::before {
+		//Add the images for the links here. Copy and adjust for each one
+		    content: url('scss/assets/kiss.png');
+		//Center the image
+		    margin-left: auto;
+		    margin-right: auto;
+	    }
+		&:nth-child(7)::before {
+		//Add the images for the links here. Copy and adjust for each one
+		    content: url('scss/assets/robot.png');
+		//Center the image
+		    margin-left: auto;
+		    margin-right: auto;
+	    }
+		&:nth-child(8)::before {
+		//Add the images for the links here. Copy and adjust for each one
+		    content: url('scss/assets/pepper.png');
 		//Center the image
 		    margin-left: auto;
 		    margin-right: auto;
@@ -88,6 +139,7 @@ $L:     1600px;
 		 margin-left: auto;
 		 margin-right: auto;     
 	}
+	background-color: $wrappercolor;
 }
 
 header {
@@ -96,6 +148,11 @@ header {
             text-align: center;
         }
     }
+	background-image: url('scss/assets/blossom-tree.gif');
+    background-repeat: no-repeat;
+    background-position: right top;
+	background-size: auto 100%;
+	height: 15em;
 }
 
 footer {
@@ -115,6 +172,7 @@ abbr {
     p {
         padding-left: 25px;
     }
+	
 }
 
 #zen-explanation {
@@ -173,6 +231,8 @@ abbr {
     @include MQ(M) {
         @include circleLinks(yellow);
     }
+		background-color: $wrappercolor;
+
 }
 
 #zen-supporting {
@@ -181,4 +241,12 @@ abbr {
         float: left;
         clear: left;
     }
+		background-color: $wrappercolor;
+	
 }
+
+#design-archives, #zen-resources{
+	background-color: $wrappercolor;
+
+}
+
