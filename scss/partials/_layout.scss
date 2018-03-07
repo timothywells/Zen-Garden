@@ -43,22 +43,37 @@ $L:     1600px;
         list-style-type: none;
         
         li {
-            border: 1px hidden black;
-            border-radius: 100%;
-            background: $color;
-            background-clip: content-box;
+            //border: 1px hidden black;
+            //border-radius: 100%;
+            //background: $color;
+            //background-clip: content-box;
             text-align: center;
-            width: 250px;
-            height: 250px;
+            max-width: 250px;
+            //height: 250px;
             margin-bottom: 25px;
             margin-left: auto;
             margin-right: auto;
             display: block;
             
+	    &:nth-child(1)::before {
+		//Add the images for the links here. Copy and adjust for each one
+		    content: url("assets/filename.svg");
+		//Center the image
+		    margin-left: auto;
+		    margin-right: auto;
+	    }
+	
             a {
-                text-decoration: none;
-                vertical-align: middle;
-                line-height: 250px;
+                	text-decoration: none;
+                	vertical-align: middle;
+                //Unnecessary now
+		    	//line-height: 250px;
+		    	
+		    &::before {
+			    //This adds a line-break between the image and link so the image sits above it
+				content: "\A";
+			    	white-space: pre;
+		    }
             }
         }
     }
