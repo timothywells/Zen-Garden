@@ -99,8 +99,18 @@ body::after {
 		width: 100%;
 		height: 32px;
 		content: "\00a0";
-		background-image: url("scss/assets/brick.png");
-		background-position: left top;
-		background-repeat: repeat;
+		background-image: url("scss/assets/mover.gif"),url("scss/assets/brick.png");
+		background-position: left top, left top;
+		background-repeat: no-repeat, repeat;
+	animation: mover_animate 10s infinite linear;
 	
+}
+
+@keyframes mover_animate {
+	0% {
+		background-position: -5% top, left top;
+	}
+	100% {
+		background-position: 105% top, left top;
+	}
 }
