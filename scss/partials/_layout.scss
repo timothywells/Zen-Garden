@@ -227,21 +227,20 @@ abbr {
         width: 35%;
         float: right;
         clear: right;
+        @include circleLinks(yellow);
     }
-	 @include MQ(L) {
+    @include MQ(L) {
         width: 35%;
         float: right;
         clear: right;
-	}
+        @include circleLinks(yellow);
+    }
 	
     h3 {
         @include buttonLayout(green);
     }
     
-    @include MQ(M) {
-        @include circleLinks(yellow);
-    }
-		background-color: $wrappercolor;
+    background-color: $wrappercolor;
 
 }
 
@@ -251,12 +250,12 @@ abbr {
         float: left;
         clear: left;
     }
-	    @include MQ(L) {
+    @include MQ(L) {
         width: 64%;
         float: left;
         clear: left;
     }
-		background-color: $wrappercolor;
+    background-color: $wrappercolor;
 }
 
 #design-archives, #zen-resources{
