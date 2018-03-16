@@ -9,3 +9,50 @@
     float: left;
     width: 49%;
 }
+
+//Small layout
+#design-selection ul {
+	@include MQ(S) {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		
+		list-style-type: none;
+		
+		li {
+			width: 25%;
+			text-align: center;
+			
+			&:nth-child(1)::before {
+				content: url("scss/assets/modern.jpg");
+			}
+			&:nth-child(2)::before {
+				content: url("scss/assets/garment.jpg");
+			}
+			&:nth-child(3)::before {
+				content: url("scss/assets/steel_beam.jpg");
+			}
+			&:nth-child(4)::before {
+				content: url("scss/assets/potion_bottle.jpg");
+			}
+			&:nth-child(5)::before {
+				content: url("scss/assets/screen.jpg");
+			}
+			&:nth-child(6)::before {
+				content: url("scss/assets/kiss.jpg");
+			}
+			&:nth-child(7)::before {
+				content: url("scss/assets/robot.jpg");
+			}
+			&:nth-child(8)::before {
+				content: url("scss/assets/pepper.jpg");
+			}
+			
+			a::before {
+				content: "\A";
+				white-space: pre;
+			}
+		}
+	}
+}
