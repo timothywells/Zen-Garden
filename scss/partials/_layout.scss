@@ -14,7 +14,7 @@ $L:     1600px;
    @media only screen and (max-width: $S) { @content; } 
   }
   @else if $canvas == M {
-   @media only screen and (min-width: $M) { @content; } 
+   @media only screen and (min-width: $S) and (max-width: $L) { @content; } 
   }
   @else if $canvas == L {
    @media only screen and (min-width: $L) { @content; } 
@@ -134,10 +134,15 @@ $L:     1600px;
     @include MQ(S) {
         padding: 25px;
     }
-	 @include MQ(M) {
-		 max-width: 60%;
-		 margin-left: auto;
-		 margin-right: auto;     
+	@include MQ(M) {
+		max-width: 60%;
+		margin-left: auto;
+		margin-right: auto;     
+	}
+	@include MQ(L){
+		max-width: 50%;
+		margin-left: auto;
+		margin-right: auto;  
 	}
 	background-color: $wrappercolor;
 }
@@ -145,7 +150,7 @@ $L:     1600px;
 header {
     h1, h2 {
         @include MQ(M) {
-            text-align: center;
+            text-align: left;
         }
     }
 	background-image: url('scss/assets/blossom-tree.gif');
@@ -223,6 +228,11 @@ abbr {
         float: right;
         clear: right;
     }
+	 @include MQ(L) {
+        width: 35%;
+        float: right;
+        clear: right;
+	}
 	
     h3 {
         @include buttonLayout(green);
@@ -241,8 +251,12 @@ abbr {
         float: left;
         clear: left;
     }
+	    @include MQ(L) {
+        width: 64%;
+        float: left;
+        clear: left;
+    }
 		background-color: $wrappercolor;
-	
 }
 
 #design-archives, #zen-resources{

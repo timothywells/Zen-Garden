@@ -25,28 +25,28 @@
 			text-align: center;
 			
 			&:nth-child(1)::before {
-				content: url("scss/assets/modern.jpg");
+				content: url("scss/assets/modern.png");
 			}
 			&:nth-child(2)::before {
-				content: url("scss/assets/garment.jpg");
+				content: url("scss/assets/garment.png");
 			}
 			&:nth-child(3)::before {
-				content: url("scss/assets/steel_beam.jpg");
+				content: url("scss/assets/steel_beam.png");
 			}
 			&:nth-child(4)::before {
-				content: url("scss/assets/potion_bottle.jpg");
+				content: url("scss/assets/potion_bottle.png");
 			}
 			&:nth-child(5)::before {
-				content: url("scss/assets/screen.jpg");
+				content: url("scss/assets/screen.png");
 			}
 			&:nth-child(6)::before {
-				content: url("scss/assets/kiss.jpg");
+				content: url("scss/assets/kiss.png");
 			}
 			&:nth-child(7)::before {
-				content: url("scss/assets/robot.jpg");
+				content: url("scss/assets/robot.png");
 			}
 			&:nth-child(8)::before {
-				content: url("scss/assets/pepper.jpg");
+				content: url("scss/assets/pepper.png");
 			}
 			
 			a::before {
