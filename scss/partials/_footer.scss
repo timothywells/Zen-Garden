@@ -92,8 +92,8 @@
 	}
 }
 
-aside::after {
-	@include MQ(S) {
+body::after {
+	
 		clear: both;
 		display: block;
 		width: 100%;
@@ -102,5 +102,5 @@ aside::after {
 		background-image: url("scss/assets/brick.png");
 		background-position: left top;
 		background-repeat: repeat;
-	}
+	
 }

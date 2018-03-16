@@ -153,11 +153,16 @@ header {
             text-align: left;
         }
     }
-	background-image: url('scss/assets/blossom-tree.gif');
-    background-repeat: no-repeat;
-    background-position: right top;
-	background-size: auto 100%;
+	background-image: url('scss/assets/blossom-tree.gif'), url('scss/assets/stary-night-1.gif');
+    background-repeat: no-repeat, repeat;
+    background-position: right top, left top;
+	background-size: auto 100%, auto 100%;
 	height: 12vw;
+	padding: 2vw;
+}
+
+body{
+	margin: 0;
 }
 
 footer {
