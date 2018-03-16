@@ -3,11 +3,46 @@
     clear: both;
     float: left;
     width: 49%;
+	
+	ul {
+		list-style-type: none;
+		
+		li {
+			&:nth-child(1)::before {
+				content: url("scss/assets/next_btn.png");
+			}
+			&:nth-child(2)::before {
+				content: url("scss/assets/all_btn.png");
+			}
+		}
+	}
 }
 
 #zen-resources {
     float: left;
     width: 49%;
+	
+	ul {
+		list-style-type: none;
+		
+		li {
+			&:nth-child(1)::before {
+				content: url("scss/assets/icon.png");
+			}
+			&:nth-child(2)::before {
+				content: url("scss/assets/icon.png");
+			}
+			&:nth-child(3)::before {
+				content: url("scss/assets/icon.png");
+			}
+			&:nth-child(4)::before {
+				content: url("scss/assets/icon.png");
+			}
+			&:nth-child(5)::before {
+				content: url("scss/assets/icon.png");
+			}
+		}
+	}
 }
 
 //Small layout
