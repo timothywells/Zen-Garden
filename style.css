@@ -21,7 +21,7 @@ header {
   background-repeat: no-repeat;
   background-position: right top;
   background-size: auto 100%;
-  height: 15em; }
+  height: 12vw; }
   @media only screen and (min-width: 768px) and (max-width: 1600px) {
     header h1, header h2 {
       text-align: left; } }
@@ -94,12 +94,106 @@ abbr {
     #design-selection {
       width: 35%;
       float: right;
-      clear: right; } }
+      clear: right; }
+      #design-selection ul {
+        list-style-type: none; }
+        #design-selection ul li {
+          text-align: center;
+          max-width: 250px;
+          margin-bottom: 25px;
+          margin-left: auto;
+          margin-right: auto;
+          display: block; }
+          #design-selection ul li:nth-child(1)::before {
+            content: url("scss/assets/modern.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(2)::before {
+            content: url("scss/assets/garment.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(3)::before {
+            content: url("scss/assets/steel_beam.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(4)::before {
+            content: url("scss/assets/potion_bottle.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(5)::before {
+            content: url("scss/assets/screen.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(6)::before {
+            content: url("scss/assets/kiss.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(7)::before {
+            content: url("scss/assets/robot.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(8)::before {
+            content: url("scss/assets/pepper.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li a {
+            text-decoration: none;
+            vertical-align: middle; }
+            #design-selection ul li a::before {
+              content: "\A";
+              white-space: pre; } }
   @media only screen and (min-width: 1600px) {
     #design-selection {
       width: 35%;
       float: right;
-      clear: right; } }
+      clear: right; }
+      #design-selection ul {
+        list-style-type: none; }
+        #design-selection ul li {
+          text-align: center;
+          max-width: 250px;
+          margin-bottom: 25px;
+          margin-left: auto;
+          margin-right: auto;
+          display: block; }
+          #design-selection ul li:nth-child(1)::before {
+            content: url("scss/assets/modern.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(2)::before {
+            content: url("scss/assets/garment.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(3)::before {
+            content: url("scss/assets/steel_beam.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(4)::before {
+            content: url("scss/assets/potion_bottle.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(5)::before {
+            content: url("scss/assets/screen.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(6)::before {
+            content: url("scss/assets/kiss.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(7)::before {
+            content: url("scss/assets/robot.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(8)::before {
+            content: url("scss/assets/pepper.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li a {
+            text-decoration: none;
+            vertical-align: middle; }
+            #design-selection ul li a::before {
+              content: "\A";
+              white-space: pre; } }
   #design-selection h3 {
     background: green;
     border: 1px green solid;
@@ -108,54 +202,6 @@ abbr {
     text-align: center;
     color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-  @media only screen and (min-width: 768px) and (max-width: 1600px) {
-    #design-selection ul {
-      list-style-type: none; }
-      #design-selection ul li {
-        text-align: center;
-        max-width: 250px;
-        margin-bottom: 25px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block; }
-        #design-selection ul li:nth-child(1)::before {
-          content: url("scss/assets/modern.png");
-          margin-left: auto;
-          margin-right: auto; }
-        #design-selection ul li:nth-child(2)::before {
-          content: url("scss/assets/garment.png");
-          margin-left: auto;
-          margin-right: auto; }
-        #design-selection ul li:nth-child(3)::before {
-          content: url("scss/assets/steel_beam.png");
-          margin-left: auto;
-          margin-right: auto; }
-        #design-selection ul li:nth-child(4)::before {
-          content: url("scss/assets/potion_bottle.png");
-          margin-left: auto;
-          margin-right: auto; }
-        #design-selection ul li:nth-child(5)::before {
-          content: url("scss/assets/screen.png");
-          margin-left: auto;
-          margin-right: auto; }
-        #design-selection ul li:nth-child(6)::before {
-          content: url("scss/assets/kiss.png");
-          margin-left: auto;
-          margin-right: auto; }
-        #design-selection ul li:nth-child(7)::before {
-          content: url("scss/assets/robot.png");
-          margin-left: auto;
-          margin-right: auto; }
-        #design-selection ul li:nth-child(8)::before {
-          content: url("scss/assets/pepper.png");
-          margin-left: auto;
-          margin-right: auto; }
-        #design-selection ul li a {
-          text-decoration: none;
-          vertical-align: middle; }
-          #design-selection ul li a::before {
-            content: "\A";
-            white-space: pre; } }
 
 #zen-supporting {
   background-color: rgba(255, 255, 255, 0.75); }
@@ -191,10 +237,13 @@ h1 {
   margin: 0 0 .4em; }
   @media only screen and (max-width: 768px) {
     h1 {
-      font-size: 3.2rem; } }
+      font-size: 5vw; } }
   @media only screen and (min-width: 768px) and (max-width: 1600px) {
     h1 {
-      font-size: 4rem; } }
+      font-size: 3vw; } }
+  @media only screen and (min-width: 1600px) {
+    h1 {
+      font-size: 2vw; } }
 
 h2 {
   font-family: "Press Start 2P", cursive;
@@ -203,10 +252,13 @@ h2 {
   margin: 0 0 .4em; }
   @media only screen and (max-width: 768px) {
     h2 {
-      font-size: 2.7rem; } }
+      font-size: 3vw; } }
   @media only screen and (min-width: 768px) and (max-width: 1600px) {
     h2 {
-      font-size: 2rem; } }
+      font-size: 1.5vw; } }
+  @media only screen and (min-width: 1600px) {
+    h2 {
+      font-size: 1vw; } }
 
 h3, h4 {
   font-family: "Press Start 2P", cursive;
