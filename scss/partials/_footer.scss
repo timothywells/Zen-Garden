@@ -91,3 +91,16 @@
 		}
 	}
 }
+
+aside::after {
+	@include MQ(S) {
+		clear: both;
+		display: block;
+		width: 100%;
+		height: 32px;
+		content: "\00a0";
+		background-image: url("scss/assets/brick.png");
+		background-position: left top;
+		background-repeat: repeat;
+	}
+}
