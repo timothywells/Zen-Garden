@@ -174,15 +174,13 @@ abbr {
     text-decoration: none;
 }
 
+#zen-summary {
+}
+
 #zen-preamble {
     h3 {
         @include buttonLayout(cyan);
     }
-    
-    p {
-        padding-left: 25px;
-    }
-	
 }
 
 #zen-explanation {
@@ -190,18 +188,11 @@ abbr {
         @include buttonLayout(green);
     }
     
-    p {
-        padding-left: 25px;
-    }
 }
 
 #zen-participation {
     h3 {
         @include buttonLayout(violet);
-    }
-    
-    p {
-        padding-left: 25px;
     }
 }
 
@@ -210,19 +201,13 @@ abbr {
         @include buttonLayout(orange);
     }
     
-    p {
-        padding-left: 25px;
-    }
 }
 
 #zen-requirements {
     h3 {
         @include buttonLayout(red);
     }
-    
-    p {
-        padding-left: 25px;
-    }
+
 }
 
 

@@ -45,8 +45,6 @@ abbr {
   text-align: center;
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-#zen-preamble p {
-  padding-left: 25px; }
 
 #zen-explanation h3 {
   background: green;
@@ -56,8 +54,6 @@ abbr {
   text-align: center;
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-#zen-explanation p {
-  padding-left: 25px; }
 
 #zen-participation h3 {
   background: violet;
@@ -67,8 +63,6 @@ abbr {
   text-align: center;
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-#zen-participation p {
-  padding-left: 25px; }
 
 #zen-benefits h3 {
   background: orange;
@@ -78,8 +72,6 @@ abbr {
   text-align: center;
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-#zen-benefits p {
-  padding-left: 25px; }
 
 #zen-requirements h3 {
   background: red;
@@ -89,8 +81,6 @@ abbr {
   text-align: center;
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-#zen-requirements p {
-  padding-left: 25px; }
 
 #design-selection {
   background-color: rgba(255, 255, 255, 0.75); }
@@ -284,6 +274,7 @@ p {
   font-family: "VT323", monospace;
   font-size: 1.4rem;
   line-height: 1.4;
+  padding: 0 25px;
   color: #9149e1; }
   p a {
     color: #0D9263;
@@ -460,8 +451,15 @@ body::after {
   clear: both;
   display: block;
   width: 100%;
-  height: 32px;
+  height: 64px;
   content: "\00a0";
-  background-image: url("scss/assets/brick.png");
-  background-position: left top;
-  background-repeat: repeat; }
+  background-image: url("scss/assets/mover.gif"), url("scss/assets/brick_2.png");
+  background-position: left top, left top;
+  background-repeat: no-repeat, repeat;
+  animation: mover_animate 10s infinite linear; }
+
+@keyframes mover_animate {
+  0% {
+    background-position: -5% top, left top; }
+  100% {
+    background-position: 105% top, left top; } }
