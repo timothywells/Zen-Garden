@@ -97,9 +97,9 @@ body::after {
 		clear: both;
 		display: block;
 		width: 100%;
-		height: 32px;
+		height: 64px;
 		content: "\00a0";
-		background-image: url("scss/assets/mover.gif"),url("scss/assets/brick.png");
+		background-image: url("scss/assets/mover.gif"),url("scss/assets/brick_2.png");
 		background-position: left top, left top;
 		background-repeat: no-repeat, repeat;
 	animation: mover_animate 10s infinite linear;
