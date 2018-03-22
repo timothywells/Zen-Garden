@@ -52,63 +52,61 @@ $L:     1600px;
             text-align: center;
             max-width: 250px;
             //height: 250px;
-            margin-bottom: 25px;
-            margin-left: auto;
-            margin-right: auto;
+			margin: 0 auto 25 auto;
             display: block;
             
 	    &:nth-child(1)::before {
 		//Add the images for the links here. Copy and adjust for each one
-		    content: url('scss/assets/modern.png');
+		    content: url('scss/assets/modern.svg');
 		//Center the image
 		    margin-left: auto;
 		    margin-right: auto;
 	    }
 		&:nth-child(2)::before {
 		//Add the images for the links here. Copy and adjust for each one
-		    content: url('scss/assets/garment.png');
+		    content: url('scss/assets/garment.svg');
 		//Center the image
 		    margin-left: auto;
 		    margin-right: auto;
 	    }
 		&:nth-child(3)::before {
 		//Add the images for the links here. Copy and adjust for each one
-		    content: url('scss/assets/steel_beam.png');
+		    content: url('scss/assets/steel_beam.svg');
 		//Center the image
 		    margin-left: auto;
 		    margin-right: auto;
 	    }
 		&:nth-child(4)::before {
 		//Add the images for the links here. Copy and adjust for each one
-		    content: url('scss/assets/potion_bottle.png');
+		    content: url('scss/assets/potion_bottle.svg');
 		//Center the image
 		    margin-left: auto;
 		    margin-right: auto;
 	    }
 		&:nth-child(5)::before {
 		//Add the images for the links here. Copy and adjust for each one
-		    content: url('scss/assets/screen.png');
+		    content: url('scss/assets/screen.svg');
 		//Center the image
 		    margin-left: auto;
 		    margin-right: auto;
 	    }
 		&:nth-child(6)::before {
 		//Add the images for the links here. Copy and adjust for each one
-		    content: url('scss/assets/kiss.png');
+		    content: url('scss/assets/kiss.svg');
 		//Center the image
 		    margin-left: auto;
 		    margin-right: auto;
 	    }
 		&:nth-child(7)::before {
 		//Add the images for the links here. Copy and adjust for each one
-		    content: url('scss/assets/robot.png');
+		    content: url('scss/assets/robot.svg');
 		//Center the image
 		    margin-left: auto;
 		    margin-right: auto;
 	    }
 		&:nth-child(8)::before {
 		//Add the images for the links here. Copy and adjust for each one
-		    content: url('scss/assets/pepper.png');
+		    content: url('scss/assets/pepper.svg');
 		//Center the image
 		    margin-left: auto;
 		    margin-right: auto;

@@ -95,40 +95,38 @@ abbr {
         #design-selection ul li {
           text-align: center;
           max-width: 250px;
-          margin-bottom: 25px;
-          margin-left: auto;
-          margin-right: auto;
+          margin: 0 auto 25 auto;
           display: block; }
           #design-selection ul li:nth-child(1)::before {
-            content: url("scss/assets/modern.png");
+            content: url("scss/assets/modern.svg");
             margin-left: auto;
             margin-right: auto; }
           #design-selection ul li:nth-child(2)::before {
-            content: url("scss/assets/garment.png");
+            content: url("scss/assets/garment.svg");
             margin-left: auto;
             margin-right: auto; }
           #design-selection ul li:nth-child(3)::before {
-            content: url("scss/assets/steel_beam.png");
+            content: url("scss/assets/steel_beam.svg");
             margin-left: auto;
             margin-right: auto; }
           #design-selection ul li:nth-child(4)::before {
-            content: url("scss/assets/potion_bottle.png");
+            content: url("scss/assets/potion_bottle.svg");
             margin-left: auto;
             margin-right: auto; }
           #design-selection ul li:nth-child(5)::before {
-            content: url("scss/assets/screen.png");
+            content: url("scss/assets/screen.svg");
             margin-left: auto;
             margin-right: auto; }
           #design-selection ul li:nth-child(6)::before {
-            content: url("scss/assets/kiss.png");
+            content: url("scss/assets/kiss.svg");
             margin-left: auto;
             margin-right: auto; }
           #design-selection ul li:nth-child(7)::before {
-            content: url("scss/assets/robot.png");
+            content: url("scss/assets/robot.svg");
             margin-left: auto;
             margin-right: auto; }
           #design-selection ul li:nth-child(8)::before {
-            content: url("scss/assets/pepper.png");
+            content: url("scss/assets/pepper.svg");
             margin-left: auto;
             margin-right: auto; }
           #design-selection ul li a {
@@ -148,40 +146,38 @@ abbr {
         #design-selection ul li {
           text-align: center;
           max-width: 250px;
-          margin-bottom: 25px;
-          margin-left: auto;
-          margin-right: auto;
+          margin: 0 auto 25 auto;
           display: block; }
           #design-selection ul li:nth-child(1)::before {
-            content: url("scss/assets/modern.png");
+            content: url("scss/assets/modern.svg");
             margin-left: auto;
             margin-right: auto; }
           #design-selection ul li:nth-child(2)::before {
-            content: url("scss/assets/garment.png");
+            content: url("scss/assets/garment.svg");
             margin-left: auto;
             margin-right: auto; }
           #design-selection ul li:nth-child(3)::before {
-            content: url("scss/assets/steel_beam.png");
+            content: url("scss/assets/steel_beam.svg");
             margin-left: auto;
             margin-right: auto; }
           #design-selection ul li:nth-child(4)::before {
-            content: url("scss/assets/potion_bottle.png");
+            content: url("scss/assets/potion_bottle.svg");
             margin-left: auto;
             margin-right: auto; }
           #design-selection ul li:nth-child(5)::before {
-            content: url("scss/assets/screen.png");
+            content: url("scss/assets/screen.svg");
             margin-left: auto;
             margin-right: auto; }
           #design-selection ul li:nth-child(6)::before {
-            content: url("scss/assets/kiss.png");
+            content: url("scss/assets/kiss.svg");
             margin-left: auto;
             margin-right: auto; }
           #design-selection ul li:nth-child(7)::before {
-            content: url("scss/assets/robot.png");
+            content: url("scss/assets/robot.svg");
             margin-left: auto;
             margin-right: auto; }
           #design-selection ul li:nth-child(8)::before {
-            content: url("scss/assets/pepper.png");
+            content: url("scss/assets/pepper.svg");
             margin-left: auto;
             margin-right: auto; }
           #design-selection ul li a {
