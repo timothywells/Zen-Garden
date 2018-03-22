@@ -43,7 +43,7 @@ $L:     1600px;
 @mixin circleLinks($color) {
     ul {
         list-style-type: none;
-        
+        padding: 0;
         li {
             //border: 1px hidden black;
             //border-radius: 100%;
@@ -227,9 +227,8 @@ abbr {
     }
 	
     h3 {
-        @include buttonLayout(green);
+        @include buttonLayout($color-4);
     }
-    
     background-color: $wrappercolor;
 
 }

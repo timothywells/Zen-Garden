@@ -90,7 +90,8 @@ abbr {
       float: right;
       clear: right; }
       #design-selection ul {
-        list-style-type: none; }
+        list-style-type: none;
+        padding: 0; }
         #design-selection ul li {
           text-align: center;
           max-width: 250px;
@@ -142,7 +143,8 @@ abbr {
       float: right;
       clear: right; }
       #design-selection ul {
-        list-style-type: none; }
+        list-style-type: none;
+        padding: 0; }
         #design-selection ul li {
           text-align: center;
           max-width: 250px;
@@ -189,8 +191,8 @@ abbr {
               content: "\A";
               white-space: pre; } }
   #design-selection h3 {
-    background: green;
-    border: 1px green solid;
+    background: #DA5413;
+    border: 1px #DA5413 solid;
     border-radius: 5px;
     padding: 25px;
     text-align: center;
