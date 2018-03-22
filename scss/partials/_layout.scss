@@ -230,8 +230,8 @@ abbr {
         @include buttonLayout(green);
     }
     
-    background-color: $wrappercolor;
-
+    //background-color: $wrappercolor;
+	background-color: rgba(0,191,255,0.75);
 }
 
 #zen-supporting {
