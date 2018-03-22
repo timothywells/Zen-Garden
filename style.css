@@ -1,72 +1,474 @@
-/*
-Error: Invalid CSS after "...: $wrappercolor": expected "{", was ";"
-        on line 233 of C:/Users/zerto/Documents/School/BYU-I OnLine/2018 Winter/WDD 331 Advanced CSS/Zen Garden/scss/partials/_layout.scss
-        from line 4 of C:\Users\zerto\Documents\School\BYU-I OnLine\2018 Winter\WDD 331 Advanced CSS\Zen Garden\scss\style.scss
+@import url("https://fonts.googleapis.com/css?family=VT323");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+.page-wrapper {
+  background-color: rgba(255, 255, 255, 0.75); }
+  @media only screen and (max-width: 768px) {
+    .page-wrapper {
+      padding: 25px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1600px) {
+    .page-wrapper {
+      max-width: 60%;
+      margin-left: auto;
+      margin-right: auto; } }
+  @media only screen and (min-width: 1600px) {
+    .page-wrapper {
+      max-width: 50%;
+      margin-left: auto;
+      margin-right: auto; } }
 
-228: 	
-229:     h3 {
-230:         @include buttonLayout($color-4);
-231:     }
-232: <<<<<<< HEAD
-233:     background-color: $wrappercolor;
-234: 
-235: =======
-236:     
-237:     //background-color: $wrappercolor;
-238: 	background-color: rgba(0,191,255,0.75);
+header {
+  background-image: url("scss/assets/blossom-tree.gif"), url("scss/assets/stary-night-1.gif");
+  background-repeat: no-repeat, repeat;
+  background-position: right top, left top;
+  background-size: auto 100%, auto 100%;
+  height: 12vw;
+  padding: 2vw; }
+  @media only screen and (min-width: 768px) and (max-width: 1600px) {
+    header h1, header h2 {
+      text-align: left; } }
 
-Backtrace:
-C:/Users/zerto/Documents/School/BYU-I OnLine/2018 Winter/WDD 331 Advanced CSS/Zen Garden/scss/partials/_layout.scss:233
-C:\Users\zerto\Documents\School\BYU-I OnLine\2018 Winter\WDD 331 Advanced CSS\Zen Garden\scss\style.scss:4
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1207:in `expected'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1137:in `expected'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1132:in `tok!'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:665:in `block'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:666:in `block'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:658:in `ruleset'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:684:in `block_child'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:125:in `stylesheet'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:41:in `parse'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/engine.rb:406:in `_to_tree'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/engine.rb:312:in `to_tree'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:326:in `block in visit_import'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/stack.rb:88:in `block in with_import'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/stack.rb:88:in `with_import'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:159:in `visit'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:8:in `visit'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/root_node.rb:20:in `render'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/engine.rb:281:in `render'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:400:in `run'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.4.24/bin/sass:13:in `<top (required)>'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/bin/sass:22:in `load'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...: $wrappercolor\": expected \"{\", was \";\"\A         on line 233 of C:/Users/zerto/Documents/School/BYU-I OnLine/2018 Winter/WDD 331 Advanced CSS/Zen Garden/scss/partials/_layout.scss\A         from line 4 of C:\Users\zerto\Documents\School\BYU-I OnLine\2018 Winter\WDD 331 Advanced CSS\Zen Garden\scss\style.scss\A \A 228: 	\A 229:     h3 {\A 230:         @include buttonLayout($color-4);\A 231:     }\A 232: <<<<<<< HEAD\A 233:     background-color: $wrappercolor;\A 234: \A 235: =======\A 236:     \A 237:     //background-color: $wrappercolor;\A 238: 	background-color: rgba(0,191,255,0.75);"; }
+body {
+  margin: 0; }
+
+footer {
+  clear: both;
+  text-align: center; }
+
+abbr {
+  text-decoration: none; }
+
+#zen-preamble h3 {
+  background: cyan;
+  border: 1px cyan solid;
+  border-radius: 5px;
+  padding: 25px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+#zen-explanation h3 {
+  background: green;
+  border: 1px green solid;
+  border-radius: 5px;
+  padding: 25px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+#zen-participation h3 {
+  background: violet;
+  border: 1px violet solid;
+  border-radius: 5px;
+  padding: 25px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+#zen-benefits h3 {
+  background: orange;
+  border: 1px orange solid;
+  border-radius: 5px;
+  padding: 25px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+#zen-requirements h3 {
+  background: red;
+  border: 1px red solid;
+  border-radius: 5px;
+  padding: 25px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+#design-selection {
+  background-color: rgba(255, 255, 255, 0.75); }
+  @media only screen and (min-width: 768px) and (max-width: 1600px) {
+    #design-selection {
+      width: 35%;
+      float: right;
+      clear: right; }
+      #design-selection ul {
+        list-style-type: none;
+        padding: 0; }
+        #design-selection ul li {
+          text-align: center;
+          max-width: 250px;
+          margin-bottom: 25px;
+          margin-left: auto;
+          margin-right: auto;
+          display: block; }
+          #design-selection ul li:nth-child(1)::before {
+            content: url("scss/assets/modern.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(2)::before {
+            content: url("scss/assets/garment.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(3)::before {
+            content: url("scss/assets/steel_beam.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(4)::before {
+            content: url("scss/assets/potion_bottle.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(5)::before {
+            content: url("scss/assets/screen.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(6)::before {
+            content: url("scss/assets/kiss.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(7)::before {
+            content: url("scss/assets/robot.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(8)::before {
+            content: url("scss/assets/pepper.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li a {
+            text-decoration: none;
+            vertical-align: middle; }
+            #design-selection ul li a::before {
+              content: "\A";
+              white-space: pre; } }
+  @media only screen and (min-width: 1600px) {
+    #design-selection {
+      width: 35%;
+      float: right;
+      clear: right; }
+      #design-selection ul {
+        list-style-type: none;
+        padding: 0; }
+        #design-selection ul li {
+          text-align: center;
+          max-width: 250px;
+          margin-bottom: 25px;
+          margin-left: auto;
+          margin-right: auto;
+          display: block; }
+          #design-selection ul li:nth-child(1)::before {
+            content: url("scss/assets/modern.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(2)::before {
+            content: url("scss/assets/garment.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(3)::before {
+            content: url("scss/assets/steel_beam.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(4)::before {
+            content: url("scss/assets/potion_bottle.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(5)::before {
+            content: url("scss/assets/screen.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(6)::before {
+            content: url("scss/assets/kiss.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(7)::before {
+            content: url("scss/assets/robot.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li:nth-child(8)::before {
+            content: url("scss/assets/pepper.png");
+            margin-left: auto;
+            margin-right: auto; }
+          #design-selection ul li a {
+            text-decoration: none;
+            vertical-align: middle; }
+            #design-selection ul li a::before {
+              content: "\A";
+              white-space: pre; } }
+  #design-selection h3 {
+    background: #DA5413;
+    border: 1px #DA5413 solid;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+#zen-supporting {
+  background-color: rgba(255, 255, 255, 0.75); }
+  @media only screen and (min-width: 768px) and (max-width: 1600px) {
+    #zen-supporting {
+      width: 64%;
+      float: left;
+      clear: left; } }
+  @media only screen and (min-width: 1600px) {
+    #zen-supporting {
+      width: 64%;
+      float: left;
+      clear: left; } }
+
+#design-archives, #zen-resources {
+  background-color: rgba(255, 255, 255, 0.75); }
+
+/* -------------------------------- Fonts -------------------------------- */
+/* -------------------------------- Page title -------------------------------- */
+main > h1 {
+  color: white; }
+  @media only screen and (min-width: 1600px) {
+    main > h1 {
+      /* title goes into the header on big devices */
+      color: white; } }
+
+/* --------------------------------Headers --------------------------------*/
+h1 {
+  font-family: "Press Start 2P", cursive;
+  color: white;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 0 .4em; }
+  @media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 5vw; } }
+  @media only screen and (min-width: 768px) and (max-width: 1600px) {
+    h1 {
+      font-size: 3vw; } }
+  @media only screen and (min-width: 1600px) {
+    h1 {
+      font-size: 2vw; } }
+
+h2 {
+  font-family: "Press Start 2P", cursive;
+  color: white;
+  line-height: 1.5;
+  margin: 0 0 .4em; }
+  @media only screen and (max-width: 768px) {
+    h2 {
+      font-size: 3vw; } }
+  @media only screen and (min-width: 768px) and (max-width: 1600px) {
+    h2 {
+      font-size: 1.5vw; } }
+  @media only screen and (min-width: 1600px) {
+    h2 {
+      font-size: 1vw; } }
+
+h3, h4 {
+  font-family: "Press Start 2P", cursive;
+  color: #521893;
+  font-weight: bold;
+  text-transform: uppercase; }
+  @media only screen and (max-width: 768px) {
+    h3, h4 {
+      font-size: 2.5vw; } }
+  @media only screen and (min-width: 768px) and (max-width: 1600px) {
+    h3, h4 {
+      font-size: 1.5vw; } }
+  @media only screen and (min-width: 1600px) {
+    h3, h4 {
+      font-size: 1vw; } }
+
+/* -------------------------------- Body Font -------------------------------- */
+p {
+  font-family: "VT323", monospace;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  padding: 0 25px;
+  color: #9149e1; }
+  p a {
+    color: #0D9263;
+    text-decoration: underline; }
+  @media only screen and (max-width: 768px) {
+    p {
+      font-size: 1.6rem;
+      line-height: 1.6; } }
+
+li {
+  font-family: "VT323", monospace;
+  color: #9149e1; }
+  li a {
+    color: #0D9263;
+    text-decoration: underline; }
+
+/* -------------------------------- Background -------------------------------- */
+body {
+  /* this is the page background */
+  background-image: url("scss/assets/falling-blossoms.gif"); }
+
+/* -------------------------------- Navigation -------------------------------- */
+header {
+  background-color: #521893; }
+
+.cd-logo {
+  /* logo box style */
+  background-color: #0D9263;
+  width: 120px; }
+  @media only screen and (min-width: 768px) and (max-width: 1600px) {
+    .cd-logo {
+      width: 180px; } }
+
+.cd-main-nav {
+  /* main navigation background color - full screen on small devices */
+  background: #521893; }
+  .cd-main-nav li a {
+    color: #ffffff;
+    border-color: #5e1ca9; }
+  @media only screen and (min-width: 768px) and (max-width: 1600px) {
+    .cd-main-nav li a {
+      color: #b98bec; }
+      .cd-main-nav li a.selected {
+        color: #ffffff;
+        box-shadow: 0 2px 0 #0D9263; }
+      .no-touch .cd-main-nav li a:hover {
+        color: #0D9263; } }
+
+.cd-nav-trigger span {
+  /* hamburger menu */
+  background-color: #ffffff; }
+  .cd-nav-trigger span::before, .cd-nav-trigger span::after {
+    /* upper and lower lines */
+    background-color: #ffffff; }
+
+.nav-is-visible .cd-nav-trigger span {
+  /* hide line in the center on mobile when nav is visible */
+  background-color: rgba(255, 255, 255, 0); }
+  .nav-is-visible .cd-nav-trigger span::before, .nav-is-visible .cd-nav-trigger span::after {
+    /* preserve visibility of upper and lower lines - close icon */
+    background-color: white; }
+
+.cd-download {
+  /* download button top-right visible on big devices */
+  background-color: #6a1fbf; }
+  .no-touch .cd-download:hover {
+    background-color: #7723d5; }
+  .cd-download span {
+    /* tooltip */
+    background: #0D9263;
+    color: #ffffff; }
+    .cd-download span::before {
+      /* right arrow color */
+      border-color: #0D9263; }
+
+/* -------------------------------- Patterns -------------------------------- */
+.cd-box {
+  /* this is the container of various design elements - i.e. the 2 logo of the branding section */
+  border: 1px solid black;
+  border-radius: 3px;
+  background: #ffffff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  padding: 6px; }
+
+/* -------------------------------- Buttons -------------------------------- */
+.btn {
+  border: none;
+  box-shadow: none;
+  border-radius: .25em;
+  font-size: 1.4rem;
+  font-family: "Press Start 2P", cursive;
+  color: #ffffff;
+  padding: .6em 2.2em;
+  cursor: pointer;
+  background: #0D9263; }
+  .btn:focus {
+    outline: none; }
+  .no-touch .btn:hover {
+    background: #0fa973; }
+  .btn.btn-success {
+    background: #4AB18D; }
+    .no-touch .btn.btn-success:hover {
+      background: #5aba99; }
+  .btn.btn-alert {
+    background: #DA5413; }
+    .no-touch .btn.btn-alert:hover {
+      background: #eb5f1b; }
+  .btn.btn-outline {
+    color: #0D9263;
+    background: transparent;
+    box-shadow: inset 0 0 0 1px #0D9263; }
+    .no-touch .btn.btn-outline:hover {
+      color: #ffffff;
+      background: #0D9263; }
+  @media only screen and (max-width: 768px) {
+    .btn {
+      font-size: 1.6rem; } }
+
+.cd-buttons .cd-box:nth-of-type(2) span {
+  /* CSS class name color */
+  color: #0D9263; }
+
+#design-archives {
+  clear: both;
+  float: left;
+  width: 49%; }
+  #design-archives ul {
+    list-style-type: none; }
+    #design-archives ul li:nth-child(1)::before {
+      content: url("scss/assets/next_btn.png"); }
+    #design-archives ul li:nth-child(2)::before {
+      content: url("scss/assets/all_btn.png"); }
+
+#zen-resources {
+  float: left;
+  width: 49%; }
+  #zen-resources ul {
+    list-style-type: none; }
+    #zen-resources ul li:nth-child(1)::before {
+      content: url("scss/assets/icon.png"); }
+    #zen-resources ul li:nth-child(2)::before {
+      content: url("scss/assets/icon.png"); }
+    #zen-resources ul li:nth-child(3)::before {
+      content: url("scss/assets/icon.png"); }
+    #zen-resources ul li:nth-child(4)::before {
+      content: url("scss/assets/icon.png"); }
+    #zen-resources ul li:nth-child(5)::before {
+      content: url("scss/assets/icon.png"); }
+
+@media only screen and (max-width: 768px) {
+  #design-selection ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none; }
+    #design-selection ul li {
+      width: 25%;
+      text-align: center; }
+      #design-selection ul li:nth-child(1)::before {
+        content: url("scss/assets/modern.png"); }
+      #design-selection ul li:nth-child(2)::before {
+        content: url("scss/assets/garment.png"); }
+      #design-selection ul li:nth-child(3)::before {
+        content: url("scss/assets/steel_beam.png"); }
+      #design-selection ul li:nth-child(4)::before {
+        content: url("scss/assets/potion_bottle.png"); }
+      #design-selection ul li:nth-child(5)::before {
+        content: url("scss/assets/screen.png"); }
+      #design-selection ul li:nth-child(6)::before {
+        content: url("scss/assets/kiss.png"); }
+      #design-selection ul li:nth-child(7)::before {
+        content: url("scss/assets/robot.png"); }
+      #design-selection ul li:nth-child(8)::before {
+        content: url("scss/assets/pepper.png"); }
+      #design-selection ul li a::before {
+        content: "\A";
+        white-space: pre; } }
+
+body::after {
+  clear: both;
+  display: block;
+  width: 100%;
+  height: 64px;
+  content: "\00a0";
+  background-image: url("scss/assets/mover.gif"), url("scss/assets/brick_2.png");
+  background-position: left top, left top;
+  background-repeat: no-repeat, repeat;
+  animation: mover_animate 10s infinite linear; }
+
+@keyframes mover_animate {
+  0% {
+    background-position: -5% top, left top; }
+  100% {
+    background-position: 105% top, left top; } }
