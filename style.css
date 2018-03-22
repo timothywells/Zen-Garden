@@ -98,7 +98,7 @@ abbr {
         #design-selection ul li {
           text-align: center;
           max-width: 250px;
-          margin: 0 auto 25 auto;
+          margin: 0px auto 25px auto;
           display: block; }
           #design-selection ul li:nth-child(1)::before {
             content: url("scss/assets/modern.svg");
@@ -149,7 +149,7 @@ abbr {
         #design-selection ul li {
           text-align: center;
           max-width: 250px;
-          margin: 0 auto 25 auto;
+          margin: 0px auto 25px auto;
           display: block; }
           #design-selection ul li:nth-child(1)::before {
             content: url("scss/assets/modern.svg");

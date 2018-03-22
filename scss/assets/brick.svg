@@ -1,1 +1,6 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 12 12"><title>brick</title><image width="16" height="16" transform="scale(0.75)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACsSURBVDhPlZK9DYNADEYDoqG7NitklWwAq6TMKskGWSUr0NLR8pAt6xPOheTJCGPr889xzTSUcnucEv3lSgpHs/N9bJb3i5cHhPNzJoWjWYKtuwnK08Q/hKog2A38TRBNmMQicNzBdkCDUaK6tBGrGzQ87gBUNMP/SaD8L2AsPQTFFtht2BLC7BBqSqXjoUYchf7dXB42AUTio1JxQZBLBj6w3eEM8egWTENZATbRWPzWeJ2KAAAAAElFTkSuQmCC"/></svg>
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="16px" height="16px">
+<image  x="0px" y="0px" width="16px" height="16px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAgMAAABinRfyAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAADFBMVEXnWhD31rUAAAD////0TU5kAAAAAWJLR0QDEQxM8gAAAAd0SU1FB+IDFRQxNEv5Nf8AAAA8SURBVAjXYxANbQxhcGCYwgQkVECEKojgbAISHCtArDAQwYRELACpi2oAEq5ZE4BioiCCYQIXg9YqqRUAx9gMfF44bxMAAAAASUVORK5CYII=" />
+</svg>
