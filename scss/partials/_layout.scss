@@ -229,8 +229,14 @@ abbr {
     h3 {
         @include buttonLayout($color-4);
     }
+<<<<<<< HEAD
     background-color: $wrappercolor;
 
+=======
+    
+    //background-color: $wrappercolor;
+	background-color: rgba(0,191,255,0.75);
+>>>>>>> origin/master
 }
 
 #zen-supporting {
