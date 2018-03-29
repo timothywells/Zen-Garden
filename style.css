@@ -297,107 +297,6 @@ body {
   /* this is the page background */
   background-image: url("scss/assets/falling-blossoms.gif"); }
 
-/* -------------------------------- Navigation -------------------------------- */
-header {
-  background-color: #521893; }
-
-.cd-logo {
-  /* logo box style */
-  background-color: #0D9263;
-  width: 120px; }
-  @media only screen and (min-width: 768px) and (max-width: 1600px) {
-    .cd-logo {
-      width: 180px; } }
-
-.cd-main-nav {
-  /* main navigation background color - full screen on small devices */
-  background: #521893; }
-  .cd-main-nav li a {
-    color: #ffffff;
-    border-color: #5e1ca9; }
-  @media only screen and (min-width: 768px) and (max-width: 1600px) {
-    .cd-main-nav li a {
-      color: #b98bec; }
-      .cd-main-nav li a.selected {
-        color: #ffffff;
-        box-shadow: 0 2px 0 #0D9263; }
-      .no-touch .cd-main-nav li a:hover {
-        color: #0D9263; } }
-
-.cd-nav-trigger span {
-  /* hamburger menu */
-  background-color: #ffffff; }
-  .cd-nav-trigger span::before, .cd-nav-trigger span::after {
-    /* upper and lower lines */
-    background-color: #ffffff; }
-
-.nav-is-visible .cd-nav-trigger span {
-  /* hide line in the center on mobile when nav is visible */
-  background-color: rgba(255, 255, 255, 0); }
-  .nav-is-visible .cd-nav-trigger span::before, .nav-is-visible .cd-nav-trigger span::after {
-    /* preserve visibility of upper and lower lines - close icon */
-    background-color: white; }
-
-.cd-download {
-  /* download button top-right visible on big devices */
-  background-color: #6a1fbf; }
-  .no-touch .cd-download:hover {
-    background-color: #7723d5; }
-  .cd-download span {
-    /* tooltip */
-    background: #0D9263;
-    color: #ffffff; }
-    .cd-download span::before {
-      /* right arrow color */
-      border-color: #0D9263; }
-
-/* -------------------------------- Patterns -------------------------------- */
-.cd-box {
-  /* this is the container of various design elements - i.e. the 2 logo of the branding section */
-  border: 1px solid black;
-  border-radius: 3px;
-  background: #ffffff;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-  padding: 6px; }
-
-/* -------------------------------- Buttons -------------------------------- */
-.btn {
-  border: none;
-  box-shadow: none;
-  border-radius: .25em;
-  font-size: 1.4rem;
-  font-family: "Press Start 2P", cursive;
-  color: #ffffff;
-  padding: .6em 2.2em;
-  cursor: pointer;
-  background: #0D9263; }
-  .btn:focus {
-    outline: none; }
-  .no-touch .btn:hover {
-    background: #0fa973; }
-  .btn.btn-success {
-    background: #4AB18D; }
-    .no-touch .btn.btn-success:hover {
-      background: #5aba99; }
-  .btn.btn-alert {
-    background: #DA5413; }
-    .no-touch .btn.btn-alert:hover {
-      background: #eb5f1b; }
-  .btn.btn-outline {
-    color: #0D9263;
-    background: transparent;
-    box-shadow: inset 0 0 0 1px #0D9263; }
-    .no-touch .btn.btn-outline:hover {
-      color: #ffffff;
-      background: #0D9263; }
-  @media only screen and (max-width: 768px) {
-    .btn {
-      font-size: 1.6rem; } }
-
-.cd-buttons .cd-box:nth-of-type(2) span {
-  /* CSS class name color */
-  color: #0D9263; }
-
 #design-archives {
   clear: both;
   float: left;
@@ -431,26 +330,67 @@ header {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    list-style-type: none; }
+    list-style-type: none;
+    padding: 0; }
     #design-selection ul li {
       width: 25%;
       text-align: center; }
       #design-selection ul li:nth-child(1)::before {
-        content: url("scss/assets/modern.svg"); }
+        display: block;
+        width: auto;
+        height: auto;
+        content: "\00a0";
+        background-size: 100% 100%;
+        background-image: url("scss/assets/modern.svg"); }
       #design-selection ul li:nth-child(2)::before {
-        content: url("scss/assets/garment.svg"); }
+        display: block;
+        width: auto;
+        height: auto;
+        content: "\00a0";
+        background-size: 100% 100%;
+        background-image: url("scss/assets/garment.svg"); }
       #design-selection ul li:nth-child(3)::before {
-        content: url("scss/assets/steel_beam.svg"); }
+        display: block;
+        width: auto;
+        height: auto;
+        content: "\00a0";
+        background-size: 100% 100%;
+        background-image: url("scss/assets/steel_beam.svg"); }
       #design-selection ul li:nth-child(4)::before {
-        content: url("scss/assets/potion_bottle.svg"); }
+        display: block;
+        width: auto;
+        height: auto;
+        content: "\00a0";
+        background-size: 100% 100%;
+        background-image: url("scss/assets/potion_bottle.svg"); }
       #design-selection ul li:nth-child(5)::before {
-        content: url("scss/assets/screen.svg"); }
+        display: block;
+        width: auto;
+        height: auto;
+        content: "\00a0";
+        background-size: 100% 100%;
+        background-image: url("scss/assets/screen.svg"); }
       #design-selection ul li:nth-child(6)::before {
-        content: url("scss/assets/kiss.svg"); }
+        display: block;
+        width: auto;
+        height: auto;
+        content: "\00a0";
+        background-size: 100% 100%;
+        background-image: url("scss/assets/kiss.svg"); }
       #design-selection ul li:nth-child(7)::before {
-        content: url("scss/assets/robot.svg"); }
+        display: block;
+        width: auto;
+        height: auto;
+        content: "\00a0";
+        background-size: 100% 100%;
+        background-image: url("scss/assets/robot.svg"); }
       #design-selection ul li:nth-child(8)::before {
-        content: url("scss/assets/pepper.svg"); }
+        display: block;
+        width: auto;
+        height: auto;
+        content: "\00a0";
+        background-size: 100% 100%;
+        background-image: url("scss/assets/pepper.svg"); }
       #design-selection ul li a::before {
         content: "\A";
         white-space: pre; } }

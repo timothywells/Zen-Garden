@@ -52,14 +52,12 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		
 		list-style-type: none;
 		padding: 0;
 		
 		li {
 			width: 25%;
-			text-align: center;
-			
+			text-align: center;	
 			&:nth-child(1)::before {
 				display: block;
 				width: auto;
