@@ -78,22 +78,34 @@ p {
 	line-height: 1.4;
 	padding: 0 25px;
 	color: lighten($color-2-4, 25%);
-	a {
-		color: $color-1;
-		text-decoration: underline;
-	}
+	//a {
+		//color: $color-1;
+		//text-decoration: none;
+	//}
 	@include MQ(S) {
 		font-size: 1.6rem;
 		line-height: 1.6;
 	}
 }
 
+a {
+	color: $color-1;
+	text-decoration: none;
+
+	&:hover {
+		color: $color-4;
+		text-decoration: underline;
+	}
+	&:active {
+		background: $color-3;	
+	}
+}
 
 li {
 	font-family: $primary-font;
 	color: lighten($color-2, 25%);
-	a {
-		color: $color-1;
-		text-decoration: underline;
-	}
+	//a {
+		//color: $color-1;
+		//text-decoration: underline;
+	//}
 }
