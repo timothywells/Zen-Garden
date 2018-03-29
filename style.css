@@ -302,6 +302,7 @@ body {
   float: left;
   width: 49%; }
   #design-archives ul {
+    padding: 0;
     list-style-type: none; }
     #design-archives ul li:nth-child(1)::before {
       content: url("scss/assets/next_btn.svg"); }
@@ -312,6 +313,7 @@ body {
   float: left;
   width: 49%; }
   #zen-resources ul {
+    padding: 0;
     list-style-type: none; }
     #zen-resources ul li:nth-child(1)::before {
       content: url("scss/assets/icon.svg"); }
@@ -337,57 +339,65 @@ body {
       text-align: center; }
       #design-selection ul li:nth-child(1)::before {
         display: block;
-        width: auto;
-        height: auto;
+        width: 20vw;
+        height: 20vw;
+        margin: auto;
         content: "\00a0";
         background-size: 100% 100%;
         background-image: url("scss/assets/modern.svg"); }
       #design-selection ul li:nth-child(2)::before {
         display: block;
-        width: auto;
-        height: auto;
+        width: 20vw;
+        height: 20vw;
+        margin: auto;
         content: "\00a0";
         background-size: 100% 100%;
         background-image: url("scss/assets/garment.svg"); }
       #design-selection ul li:nth-child(3)::before {
         display: block;
-        width: auto;
-        height: auto;
+        width: 20vw;
+        height: 20vw;
+        margin: auto;
         content: "\00a0";
         background-size: 100% 100%;
         background-image: url("scss/assets/steel_beam.svg"); }
       #design-selection ul li:nth-child(4)::before {
         display: block;
-        width: auto;
-        height: auto;
+        width: 20vw;
+        height: 20vw;
+        margin: auto;
         content: "\00a0";
         background-size: 100% 100%;
         background-image: url("scss/assets/potion_bottle.svg"); }
       #design-selection ul li:nth-child(5)::before {
         display: block;
-        width: auto;
-        height: auto;
+        width: 20vw;
+        height: 20vw;
+        margin: auto;
         content: "\00a0";
         background-size: 100% 100%;
         background-image: url("scss/assets/screen.svg"); }
       #design-selection ul li:nth-child(6)::before {
         display: block;
-        width: auto;
-        height: auto;
+        width: 20vw;
+        height: 20vw;
+        margin: auto;
         content: "\00a0";
         background-size: 100% 100%;
         background-image: url("scss/assets/kiss.svg"); }
       #design-selection ul li:nth-child(7)::before {
         display: block;
-        width: auto;
-        height: auto;
+        width: 20vw;
+        height: 20vw;
+        margin: auto;
         content: "\00a0";
         background-size: 100% 100%;
         background-image: url("scss/assets/robot.svg"); }
       #design-selection ul li:nth-child(8)::before {
         display: block;
-        width: auto;
-        height: auto;
+        width: 20vw;
+        height: 20vw;
+        margin: auto;
         content: "\00a0";
         background-size: 100% 100%;
         background-image: url("scss/assets/pepper.svg"); }
