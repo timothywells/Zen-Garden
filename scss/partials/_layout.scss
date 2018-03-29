@@ -188,20 +188,20 @@ abbr {
 
 #zen-explanation {
     h3 {
-        @include buttonLayout(green);
+        @include buttonLayout($color-1-3);
     }
     
 }
 
 #zen-participation {
     h3 {
-        @include buttonLayout(violet);
+        @include buttonLayout($color-2-3);
     }
 }
 
 #zen-benefits {
     h3 {
-        @include buttonLayout(orange);
+        @include buttonLayout($color-3-3);
     }
     
 }
