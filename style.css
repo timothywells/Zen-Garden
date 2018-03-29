@@ -50,8 +50,8 @@ abbr {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 #zen-explanation h3 {
-  background: green;
-  border: 1px green solid;
+  background: #04754D;
+  border: 1px #04754D solid;
   border-radius: 5px;
   padding: 25px;
   text-align: center;
@@ -59,8 +59,8 @@ abbr {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 #zen-participation h3 {
-  background: violet;
-  border: 1px violet solid;
+  background: #3E0D76;
+  border: 1px #3E0D76 solid;
   border-radius: 5px;
   padding: 25px;
   text-align: center;
@@ -68,8 +68,8 @@ abbr {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 #zen-benefits h3 {
-  background: orange;
-  border: 1px orange solid;
+  background: #AFA206;
+  border: 1px #AFA206 solid;
   border-radius: 5px;
   padding: 25px;
   text-align: center;
@@ -276,7 +276,7 @@ p {
   font-size: 1.4rem;
   line-height: 1.4;
   padding: 0 25px;
-  color: #9149e1; }
+  color: #6a0ed3; }
   p a {
     color: #0D9263;
     text-decoration: underline; }
