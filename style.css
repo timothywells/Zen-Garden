@@ -405,9 +405,9 @@ header {
   #design-archives ul {
     list-style-type: none; }
     #design-archives ul li:nth-child(1)::before {
-      content: url("scss/assets/next_btn.png"); }
+      content: url("scss/assets/next_btn.svg"); }
     #design-archives ul li:nth-child(2)::before {
-      content: url("scss/assets/all_btn.png"); }
+      content: url("scss/assets/all_btn.svg"); }
 
 #zen-resources {
   float: left;
@@ -415,15 +415,15 @@ header {
   #zen-resources ul {
     list-style-type: none; }
     #zen-resources ul li:nth-child(1)::before {
-      content: url("scss/assets/icon.png"); }
+      content: url("scss/assets/icon.svg"); }
     #zen-resources ul li:nth-child(2)::before {
-      content: url("scss/assets/icon.png"); }
+      content: url("scss/assets/icon.svg"); }
     #zen-resources ul li:nth-child(3)::before {
-      content: url("scss/assets/icon.png"); }
+      content: url("scss/assets/icon.svg"); }
     #zen-resources ul li:nth-child(4)::before {
-      content: url("scss/assets/icon.png"); }
+      content: url("scss/assets/icon.svg"); }
     #zen-resources ul li:nth-child(5)::before {
-      content: url("scss/assets/icon.png"); }
+      content: url("scss/assets/icon.svg"); }
 
 @media only screen and (max-width: 768px) {
   #design-selection ul {
@@ -436,21 +436,21 @@ header {
       width: 25%;
       text-align: center; }
       #design-selection ul li:nth-child(1)::before {
-        content: url("scss/assets/modern.png"); }
+        content: url("scss/assets/modern.svg"); }
       #design-selection ul li:nth-child(2)::before {
-        content: url("scss/assets/garment.png"); }
+        content: url("scss/assets/garment.svg"); }
       #design-selection ul li:nth-child(3)::before {
-        content: url("scss/assets/steel_beam.png"); }
+        content: url("scss/assets/steel_beam.svg"); }
       #design-selection ul li:nth-child(4)::before {
-        content: url("scss/assets/potion_bottle.png"); }
+        content: url("scss/assets/potion_bottle.svg"); }
       #design-selection ul li:nth-child(5)::before {
-        content: url("scss/assets/screen.png"); }
+        content: url("scss/assets/screen.svg"); }
       #design-selection ul li:nth-child(6)::before {
-        content: url("scss/assets/kiss.png"); }
+        content: url("scss/assets/kiss.svg"); }
       #design-selection ul li:nth-child(7)::before {
-        content: url("scss/assets/robot.png"); }
+        content: url("scss/assets/robot.svg"); }
       #design-selection ul li:nth-child(8)::before {
-        content: url("scss/assets/pepper.png"); }
+        content: url("scss/assets/pepper.svg"); }
       #design-selection ul li a::before {
         content: "\A";
         white-space: pre; } }
@@ -461,7 +461,7 @@ body::after {
   width: 100%;
   height: 64px;
   content: "\00a0";
-  background-image: url("scss/assets/mover.gif"), url("scss/assets/brick_2.png");
+  background-image: url("scss/assets/mover.gif"), url("scss/assets/brick_2.svg");
   background-position: left top, left top;
   background-repeat: no-repeat, repeat;
   animation: mover_animate 10s infinite linear; }

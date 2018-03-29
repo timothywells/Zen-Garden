@@ -9,10 +9,10 @@
 		
 		li {
 			&:nth-child(1)::before {
-				content: url("scss/assets/next_btn.png");
+				content: url("scss/assets/next_btn.svg");
 			}
 			&:nth-child(2)::before {
-				content: url("scss/assets/all_btn.png");
+				content: url("scss/assets/all_btn.svg");
 			}
 		}
 	}
@@ -27,19 +27,19 @@
 		
 		li {
 			&:nth-child(1)::before {
-				content: url("scss/assets/icon.png");
+				content: url("scss/assets/icon.svg");
 			}
 			&:nth-child(2)::before {
-				content: url("scss/assets/icon.png");
+				content: url("scss/assets/icon.svg");
 			}
 			&:nth-child(3)::before {
-				content: url("scss/assets/icon.png");
+				content: url("scss/assets/icon.svg");
 			}
 			&:nth-child(4)::before {
-				content: url("scss/assets/icon.png");
+				content: url("scss/assets/icon.svg");
 			}
 			&:nth-child(5)::before {
-				content: url("scss/assets/icon.png");
+				content: url("scss/assets/icon.svg");
 			}
 		}
 	}
@@ -60,28 +60,28 @@
 			text-align: center;
 			
 			&:nth-child(1)::before {
-				content: url("scss/assets/modern.png");
+				content: url("scss/assets/modern.svg");
 			}
 			&:nth-child(2)::before {
-				content: url("scss/assets/garment.png");
+				content: url("scss/assets/garment.svg");
 			}
 			&:nth-child(3)::before {
-				content: url("scss/assets/steel_beam.png");
+				content: url("scss/assets/steel_beam.svg");
 			}
 			&:nth-child(4)::before {
-				content: url("scss/assets/potion_bottle.png");
+				content: url("scss/assets/potion_bottle.svg");
 			}
 			&:nth-child(5)::before {
-				content: url("scss/assets/screen.png");
+				content: url("scss/assets/screen.svg");
 			}
 			&:nth-child(6)::before {
-				content: url("scss/assets/kiss.png");
+				content: url("scss/assets/kiss.svg");
 			}
 			&:nth-child(7)::before {
-				content: url("scss/assets/robot.png");
+				content: url("scss/assets/robot.svg");
 			}
 			&:nth-child(8)::before {
-				content: url("scss/assets/pepper.png");
+				content: url("scss/assets/pepper.svg");
 			}
 			
 			a::before {
@@ -99,7 +99,7 @@ body::after {
 		width: 100%;
 		height: 64px;
 		content: "\00a0";
-		background-image: url("scss/assets/mover.gif"),url("scss/assets/brick_2.png");
+		background-image: url("scss/assets/mover.gif"),url("scss/assets/brick_2.svg");
 		background-position: left top, left top;
 		background-repeat: no-repeat, repeat;
 	animation: mover_animate 10s infinite linear;
