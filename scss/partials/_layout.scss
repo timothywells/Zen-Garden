@@ -171,6 +171,16 @@ body{
 footer {
     clear: both;
     text-align: center;
+	
+	font-family: $primary-font;
+	font-size: 1.4rem;
+	line-height: 1.4;
+	padding: 0 25px;
+	
+	@include MQ(S) {
+		font-size: 1.6rem;
+		line-height: 1.6;
+	}
 }
 
 abbr {
