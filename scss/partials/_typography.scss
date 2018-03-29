@@ -60,10 +60,10 @@ h3, h4 {
 	text-transform: uppercase;
 
 	@include MQ(S) {
-		font-size: 2.5vw;
+		font-size: 4vw;
 	}
 	@include MQ(M) {
-		font-size: 1.5vw;
+		font-size: 2vw;
 	}
 	@include MQ(L) {
 		font-size: 1vw;
