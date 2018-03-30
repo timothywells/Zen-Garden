@@ -1,22 +1,14 @@
+/* ------------------------------ Typography ----------------------------- */
 
-/* -------------------------------- Fonts -------------------------------- */
-@import url('https://fonts.googleapis.com/css?family=VT323'); //Body Font
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P'); //Header Font
-
-
-$primary-font: 'VT323', monospace;
-$secondary-font: 'Press Start 2P', cursive;
-
-/* -------------------------------- Page title -------------------------------- */
+/* ------------------------------ Page title ----------------------------- */
 main > h1 {
 	color: white;
 	@include MQ(L) {
-		/* title goes into the header on big devices */
 		color: white;
 	}
 }
 
-/* --------------------------------Headers --------------------------------*/
+/* ------------------------------- Headers ------------------------------- */
 
 h1 {
 	font-family: $secondary-font;
@@ -71,17 +63,14 @@ h3, h4 {
 	
 }
 
-/* -------------------------------- Body Font -------------------------------- */
+/* ------------------------------ Body Font ------------------------------ */
 p {
 	font-family: $primary-font;
 	font-size: 1.4rem;
 	line-height: 1.4;
 	padding: 0 25px;
 	color: lighten($color-2-4, 25%);
-	//a {
-		//color: $color-1;
-		//text-decoration: none;
-	//}
+	
 	@include MQ(S) {
 		font-size: 1.6rem;
 		line-height: 1.6;
@@ -104,8 +93,8 @@ a {
 li {
 	font-family: $primary-font;
 	color: lighten($color-2, 25%);
-	//a {
-		//color: $color-1;
-		//text-decoration: underline;
-	//}
+}
+
+abbr {
+    text-decoration: none;
 }
