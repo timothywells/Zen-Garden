@@ -1,8 +1,26 @@
+
+/* ------------------------------- Footer -------------------------------- */
+footer {
+    clear: both;
+    text-align: center;
+	
+	font-family: $primary-font;
+	font-size: 2vw;
+	line-height: 1.4;
+	padding: 0 25px;
+	
+	@include MQ(S) {
+		font-size: 8vw;
+		line-height: 1.6;
+	}
+}
+
 // Places the Archives and Resources at the bottom of the page
-#design-archives{
+#design-archives {
     clear: both;
     float: left;
     width: 49%;
+	background-color: $wrappercolor;
 	
 	ul {
 		padding: 0;
@@ -22,6 +40,7 @@
 #zen-resources {
     float: left;
     width: 49%;
+	background-color: $wrappercolor;
 	
 	ul {
 		padding: 0;
@@ -47,123 +66,118 @@
 	}
 }
 
-//Small layout
-#design-selection ul {
-	@include MQ(S) {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-wrap: wrap;
-		list-style-type: none;
-		padding: 0;
-		
-		li {
-			width: 25%;
-			text-align: center;	
-			&:nth-child(1)::before {
-				display: block;
-				width: 20vw;
-				height: 20vw;
-				margin: auto;
-				content: "\00a0";
-				background-size: 100% 100%;
-				background-image: url("scss/assets/modern.svg");
-			}
-			&:nth-child(2)::before {
-				display: block;
-				width: 20vw;
-				height: 20vw;
-				margin: auto;
-				content: "\00a0";
-				background-size: 100% 100%;
-				background-image: url("scss/assets/garment.svg");
-			}
-			&:nth-child(3)::before {
-				display: block;
-				width: 20vw;
-				height: 20vw;
-				margin: auto;
-				content: "\00a0";
-				background-size: 100% 100%;
-				background-image: url("scss/assets/steel_beam.svg");
-			}
-			&:nth-child(4)::before {
-				display: block;
-				width: 20vw;
-				height: 20vw;
-				margin: auto;
-				content: "\00a0";
-				background-size: 100% 100%;
-				background-image: url("scss/assets/potion_bottle.svg");
-			}
-			&:nth-child(5)::before {
-				display: block;
-				width: 20vw;
-				height: 20vw;
-				margin: auto;
-				content: "\00a0";
-				background-size: 100% 100%;
-				background-image: url("scss/assets/screen.svg");
-			}
-			&:nth-child(6)::before {
-				display: block;
-				width: 20vw;
-				height: 20vw;
-				margin: auto;
-				content: "\00a0";
-				background-size: 100% 100%;
-				background-image: url("scss/assets/kiss.svg");
-			}
-			&:nth-child(7)::before {
-				display: block;
-				width: 20vw;
-				height: 20vw;
-				margin: auto;
-				content: "\00a0";
-				background-size: 100% 100%;
-				background-image: url("scss/assets/robot.svg");
-			}
-			&:nth-child(8)::before {
-				display: block;
-				width: 20vw;
-				height: 20vw;
-				margin: auto;
-				content: "\00a0";
-				background-size: 100% 100%;
-				background-image: url("scss/assets/pepper.svg");
-			}
+//Small screen layout
+#design-selection {
+    h3 {
+        @include buttonLayout($color-4);
+    }
+	
+    background-color: $wrappercolor;
+	
+    @include MQ(M) {
+        width: 35%;
+        float: right;
+        clear: right;
+        @include circleLinks(yellow);
+    }
+    @include MQ(L) {
+        width: 35%;
+        float: right;
+        clear: right;
+        @include circleLinks(yellow);
+    }
+
+	ul {
+		@include MQ(S) {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			list-style-type: none;
+			padding: 0;
 			
-			a::before {
-				content: "\A";
-				white-space: pre;
+			li {
+				width: 25%;
+				text-align: center;
+				
+				&:nth-child(1)::before {
+					display: block;
+					width: 20vw;
+					height: 20vw;
+					margin: auto;
+					content: "\00a0";
+					background-size: 100% 100%;
+					background-image: url("scss/assets/modern.svg");
+				}
+				&:nth-child(2)::before {
+					display: block;
+					width: 20vw;
+					height: 20vw;
+					margin: auto;
+					content: "\00a0";
+					background-size: 100% 100%;
+					background-image: url("scss/assets/garment.svg");
+				}
+				&:nth-child(3)::before {
+					display: block;
+					width: 20vw;
+					height: 20vw;
+					margin: auto;
+					content: "\00a0";
+					background-size: 100% 100%;
+					background-image: url("scss/assets/steel_beam.svg");
+				}
+				&:nth-child(4)::before {
+					display: block;
+					width: 20vw;
+					height: 20vw;
+					margin: auto;
+					content: "\00a0";
+					background-size: 100% 100%;
+					background-image: url("scss/assets/potion_bottle.svg");
+				}
+				&:nth-child(5)::before {
+					display: block;
+					width: 20vw;
+					height: 20vw;
+					margin: auto;
+					content: "\00a0";
+					background-size: 100% 100%;
+					background-image: url("scss/assets/screen.svg");
+				}
+				&:nth-child(6)::before {
+					display: block;
+					width: 20vw;
+					height: 20vw;
+					margin: auto;
+					content: "\00a0";
+					background-size: 100% 100%;
+					background-image: url("scss/assets/kiss.svg");
+				}
+				&:nth-child(7)::before {
+					display: block;
+					width: 20vw;
+					height: 20vw;
+					margin: auto;
+					content: "\00a0";
+					background-size: 100% 100%;
+					background-image: url("scss/assets/robot.svg");
+				}
+				&:nth-child(8)::before {
+					display: block;
+					width: 20vw;
+					height: 20vw;
+					margin: auto;
+					content: "\00a0";
+					background-size: 100% 100%;
+					background-image: url("scss/assets/pepper.svg");
+				}
+				
+				a::before {
+					content: "\A";
+					white-space: pre;
+				}
 			}
 		}
-	}
-}
-
-body::after {
-	
-		clear: both;
-		display: block;
-		width: 100%;
-		height: 64px;
-		content: "\00a0";
-		background-image: url("scss/assets/mover.gif"),url("scss/assets/brick_2.svg");
-		background-position: left top, left top;
-		background-repeat: no-repeat, repeat;
-	animation: mover_animate 10s infinite linear;
-	
-	@include MQ(S) {
-		animation: mover_animate 3s infinite linear;
-	}
-	
-}
-
-@keyframes mover_animate {
-	0% {
-		background-position: -5% top, left top;
-	}
-	100% {
-		background-position: 105% top, left top;
 	}
 }
