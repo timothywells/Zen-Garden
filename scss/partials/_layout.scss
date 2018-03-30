@@ -1,111 +1,8 @@
-// super light grid - it works with the .cd-container class inside style.scss
 
-@mixin column($percentage, $float-direction:left) {
-  width: 100% * $percentage;
-  float: $float-direction;
-}
-
-// buttons for mobile
-@mixin buttonLayout($color) {
-    background: $color;
-    border: 1px $color solid;
-    border-radius: 5px;
-    padding: 25px;
-    text-align: center;
-    color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-// circle layout for sidebar links
-@mixin circleLinks($color) {
-    ul {
-        list-style-type: none;
-        padding: 0;
-        li {
-            //border: 1px hidden black;
-            //border-radius: 100%;
-            //background: $color;
-            //background-clip: content-box;
-            text-align: center;
-            max-width: 250px;
-            //height: 250px;
-			margin: 0px auto 25px auto;
-            display: block;
-            
-	    &:nth-child(1)::before {
-		//Add the images for the links here. Copy and adjust for each one
-		    content: url('scss/assets/modern.svg');
-		//Center the image
-		    margin-left: auto;
-		    margin-right: auto;
-	    }
-		&:nth-child(2)::before {
-		//Add the images for the links here. Copy and adjust for each one
-		    content: url('scss/assets/garment.svg');
-		//Center the image
-		    margin-left: auto;
-		    margin-right: auto;
-	    }
-		&:nth-child(3)::before {
-		//Add the images for the links here. Copy and adjust for each one
-		    content: url('scss/assets/steel_beam.svg');
-		//Center the image
-		    margin-left: auto;
-		    margin-right: auto;
-	    }
-		&:nth-child(4)::before {
-		//Add the images for the links here. Copy and adjust for each one
-		    content: url('scss/assets/potion_bottle.svg');
-		//Center the image
-		    margin-left: auto;
-		    margin-right: auto;
-	    }
-		&:nth-child(5)::before {
-		//Add the images for the links here. Copy and adjust for each one
-		    content: url('scss/assets/screen.svg');
-		//Center the image
-		    margin-left: auto;
-		    margin-right: auto;
-	    }
-		&:nth-child(6)::before {
-		//Add the images for the links here. Copy and adjust for each one
-		    content: url('scss/assets/kiss.svg');
-		//Center the image
-		    margin-left: auto;
-		    margin-right: auto;
-	    }
-		&:nth-child(7)::before {
-		//Add the images for the links here. Copy and adjust for each one
-		    content: url('scss/assets/robot.svg');
-		//Center the image
-		    margin-left: auto;
-		    margin-right: auto;
-	    }
-		&:nth-child(8)::before {
-		//Add the images for the links here. Copy and adjust for each one
-		    content: url('scss/assets/pepper.svg');
-		//Center the image
-		    margin-left: auto;
-		    margin-right: auto;
-	    }
-	
-            a {
-                	text-decoration: none;
-                	vertical-align: middle;
-                //Unnecessary now
-		    	//line-height: 250px;
-		    	
-		    &::before {
-			    //This adds a line-break between the image and link so the image sits above it
-				content: "\A";
-			    	white-space: pre;
-		    }
-            }
-        }
-    }
-}
-
+/* ------------------------------- Layout -------------------------------- */
 .page-wrapper {
+	background-color: $wrappercolor;
+	
     @include MQ(S) {
         padding: 25px;
     }
@@ -119,7 +16,6 @@
 		margin-left: auto;
 		margin-right: auto;  
 	}
-	background-color: $wrappercolor;
 }
 
 header {
@@ -128,6 +24,7 @@ header {
             text-align: left;
         }
     }
+	
 	background-image: url('scss/assets/blossom-tree.gif'), url('scss/assets/stary-night-1.gif');
     background-repeat: no-repeat, repeat;
     background-position: right top, left top;
@@ -139,32 +36,6 @@ header {
 	border: 1px black hidden;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-body{
-	margin: 0;
-}
-
-footer {
-    clear: both;
-    text-align: center;
-	
-	font-family: $primary-font;
-	font-size: 2vw;
-	line-height: 1.4;
-	padding: 0 25px;
-	
-	@include MQ(S) {
-		font-size: 8vw;
-		line-height: 1.6;
-	}
-}
-
-abbr {
-    text-decoration: none;
-}
-
-#zen-summary {
 }
 
 #zen-preamble {
@@ -200,29 +71,9 @@ abbr {
 
 }
 
-
-//
-#design-selection {
-    @include MQ(M) {
-        width: 35%;
-        float: right;
-        clear: right;
-        @include circleLinks(yellow);
-    }
-    @include MQ(L) {
-        width: 35%;
-        float: right;
-        clear: right;
-        @include circleLinks(yellow);
-    }
-	
-    h3 {
-        @include buttonLayout($color-4);
-    }
-    background-color: $wrappercolor;
-}
-
 #zen-supporting {
+    background-color: $wrappercolor;
+	
     @include MQ(M) {
         width: 64%;
         float: left;
@@ -233,10 +84,4 @@ abbr {
         float: left;
         clear: left;
     }
-    background-color: $wrappercolor;
-}
-
-#design-archives, #zen-resources{
-	background-color: $wrappercolor;
-
 }

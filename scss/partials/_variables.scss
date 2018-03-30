@@ -1,9 +1,9 @@
-
-$wrappercolor: rgba(255,255,255,.75);
-
-// breakpoints
-   
 $S:     768px;   
 $M:     1024px;     
 $L:     1600px;   
 
+@import url('https://fonts.googleapis.com/css?family=VT323'); //Body Font
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P'); //Header Font
+
+$primary-font: 'VT323', monospace;
+$secondary-font: 'Press Start 2P', cursive;
