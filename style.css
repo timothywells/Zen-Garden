@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=VT323");
 @import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
-/* ------------------------------ Typography ----------------------------- */
-/* ------------------------------ Page title ----------------------------- */
+/* ------------------------------ Page Title Typography ----------------------------- */
 main > h1 {
   color: white; }
   @media only screen and (min-width: 1600px) {
     main > h1 {
       color: white; } }
 
-/* ------------------------------- Headers ------------------------------- */
+/* ------------------------------- Headers Typography ------------------------------- */
 h1 {
   font-family: "Press Start 2P", cursive;
   color: white;
@@ -55,7 +54,7 @@ h3, h4 {
     h3, h4 {
       font-size: 1vw; } }
 
-/* ------------------------------ Body Font ------------------------------ */
+/* ------------------------------ Body Typography ------------------------------ */
 p {
   font-family: "VT323", monospace;
   font-size: 1.4rem;
@@ -111,6 +110,7 @@ abbr {
       margin-right: auto;
       margin-top: 25px; } }
 
+/* ------------------------------- Header -------------------------------- */
 header {
   background-image: url("scss/assets/blossom-tree.gif"), url("scss/assets/stary-night-1.gif");
   background-repeat: no-repeat, repeat;
@@ -125,6 +125,7 @@ header {
     header h1, header h2 {
       text-align: left; } }
 
+/* ------------------------------- Body -------------------------------- */
 #zen-preamble h3 {
   background: darkblue;
   border: 1px darkblue solid;
@@ -170,6 +171,7 @@ header {
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
+/* ------------------------------- Wrapper Sizes -------------------------------- */
 #zen-supporting {
   background-color: rgba(255, 255, 255, 0.75); }
   @media only screen and (min-width: 768px) and (max-width: 1600px) {
@@ -224,6 +226,7 @@ footer {
     footer {
       font-size: 3vw; } }
 
+/* ------------------------------- Divs -------------------------------- */
 #design-archives {
   clear: both;
   float: left;
@@ -241,6 +244,7 @@ footer {
     padding: 0;
     list-style-type: none; }
 
+/* ------------------------------- Media Screens -------------------------------- */
 #design-selection {
   background-color: rgba(255, 255, 255, 0.75); }
   #design-selection h3 {

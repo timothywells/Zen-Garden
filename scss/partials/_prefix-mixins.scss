@@ -1,3 +1,4 @@
+//MIXINS
 // media queries
 @mixin MQ($canvas) {
   @if $canvas == S {
@@ -22,19 +23,14 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-// circle layout for sidebar links
+// Aside Mixin
 @mixin circleLinks($color) {
     ul {
         list-style-type: none;
         padding: 0;
         li {
-            //border: 1px hidden black;
-            //border-radius: 100%;
-            //background: $color;
-            //background-clip: content-box;
             text-align: center;
             max-width: 250px;
-            //height: 250px;
 			margin: 0px auto 25px auto;
             display: block;
             
@@ -97,15 +93,12 @@
 	
             a {
                 	text-decoration: none;
-                	vertical-align: middle;
-                //Unnecessary now
-		    	//line-height: 250px;
-		    	
+                	vertical-align: middle;   	
 		    &::before {
 			    //This adds a line-break between the image and link so the image sits above it
 				content: "\A";
 			    	white-space: pre;
-		    }
+				}
             }
         }
     }

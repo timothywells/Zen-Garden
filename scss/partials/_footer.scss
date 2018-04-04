@@ -18,7 +18,7 @@ footer {
 	}
 }
 
-// Places the Archives and Resources at the bottom of the page
+/* ------------------------------- Divs -------------------------------- */
 #design-archives {
     clear: both;
     float: left;
@@ -44,39 +44,22 @@ footer {
     float: left;
     width: 49%;
 	background-color: $wrappercolor;
-	
 	ul {
 		padding: 0;
 		list-style-type: none;
 		
 		li {
-//			&:nth-child(1)::before {
-//				content: url("scss/assets/icon.svg");
-//			}
-//			&:nth-child(2)::before {
-//				content: url("scss/assets/icon.svg");
-//			}
-//			&:nth-child(3)::before {
-//				content: url("scss/assets/icon.svg");
-//			}
-//			&:nth-child(4)::before {
-//				content: url("scss/assets/icon.svg");
-//			}
-//			&:nth-child(5)::before {
-//				content: url("scss/assets/icon.svg");
 			}
 		}
 	}
 
-
+/* ------------------------------- Media Screens -------------------------------- */
 //Small screen layout
 #design-selection {
     h3 {
         @include buttonLayout($color-4);
     }
-	
     background-color: $wrappercolor;
-	
     @include MQ(M) {
         width: 35%;
         float: right;
@@ -89,7 +72,6 @@ footer {
         clear: right;
         @include circleLinks(yellow);
     }
-
 	ul {
 		@include MQ(S) {
 			display: flex;
@@ -97,8 +79,7 @@ footer {
 			align-items: center;
 			flex-wrap: wrap;
 			list-style-type: none;
-			padding: 0;
-			
+			padding: 0;		
 			li {
 				width: 25%;
 				text-align: center;
@@ -175,7 +156,6 @@ footer {
 					background-size: 100% 100%;
 					background-image: url("scss/assets/pepper.svg");
 				}
-				
 				a::before {
 					content: "\A";
 					white-space: pre;

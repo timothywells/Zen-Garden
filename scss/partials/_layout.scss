@@ -21,6 +21,7 @@
 	}
 }
 
+/* ------------------------------- Header -------------------------------- */
 header {
     h1, h2 {
         @include MQ(M) {
@@ -41,6 +42,7 @@ header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* ------------------------------- Body -------------------------------- */
 #zen-preamble {
     h3 {
         @include buttonLayout(darkblue);
@@ -74,6 +76,7 @@ header {
 
 }
 
+/* ------------------------------- Wrapper Sizes -------------------------------- */
 #zen-supporting {
     background-color: $wrappercolor;
 	

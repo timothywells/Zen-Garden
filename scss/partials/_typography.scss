@@ -1,6 +1,6 @@
-/* ------------------------------ Typography ----------------------------- */
 
-/* ------------------------------ Page title ----------------------------- */
+//Typography
+/* ------------------------------ Page Title Typography ----------------------------- */
 main > h1 {
 	color: white;
 	@include MQ(L) {
@@ -8,8 +8,7 @@ main > h1 {
 	}
 }
 
-/* ------------------------------- Headers ------------------------------- */
-
+/* ------------------------------- Headers Typography ------------------------------- */
 h1 {
 	font-family: $secondary-font;
 	color: white;
@@ -25,7 +24,6 @@ h1 {
 	@include MQ(L) {
 		font-size: 2vw;
 	}
-	
 }
 
 h2	{
@@ -44,13 +42,11 @@ h2	{
 	}
 }
 
-
 h3, h4 {
 	font-family: $secondary-font;
 	color: $color-2;
 	font-weight: bold;
 	text-transform: uppercase;
-
 	@include MQ(S) {
 		font-size: 4vw;
 	}
@@ -59,18 +55,16 @@ h3, h4 {
 	}
 	@include MQ(L) {
 		font-size: 1vw;
-	}
-	
+	}	
 }
 
-/* ------------------------------ Body Font ------------------------------ */
+/* ------------------------------ Body Typography ------------------------------ */
 p {
 	font-family: $primary-font;
 	font-size: 1.4rem;
 	line-height: 1.4;
 	padding: 0 25px;
 	color: lighten($color-2-4, 25%);
-	
 	@include MQ(S) {
 		font-size: 1.6rem;
 		line-height: 1.6;
@@ -102,7 +96,6 @@ li {
 	@include MQ(L) {
 		font-size: 1.5vw;
 	}
-	
 }
 
 abbr {
