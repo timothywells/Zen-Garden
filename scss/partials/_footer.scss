@@ -31,10 +31,10 @@ footer {
 		
 		li {
 			&:nth-child(1)::before {
-				content: url("scss/assets/next_btn.svg");
+				//content: url("scss/assets/next_btn.svg");
 			}
 			&:nth-child(2)::before {
-				content: url("scss/assets/all_btn.svg");
+				//content: url("scss/assets/all_btn.svg");
 			}
 		}
 	}
@@ -50,24 +50,24 @@ footer {
 		list-style-type: none;
 		
 		li {
-			&:nth-child(1)::before {
-				content: url("scss/assets/icon.svg");
-			}
-			&:nth-child(2)::before {
-				content: url("scss/assets/icon.svg");
-			}
-			&:nth-child(3)::before {
-				content: url("scss/assets/icon.svg");
-			}
-			&:nth-child(4)::before {
-				content: url("scss/assets/icon.svg");
-			}
-			&:nth-child(5)::before {
-				content: url("scss/assets/icon.svg");
+//			&:nth-child(1)::before {
+//				content: url("scss/assets/icon.svg");
+//			}
+//			&:nth-child(2)::before {
+//				content: url("scss/assets/icon.svg");
+//			}
+//			&:nth-child(3)::before {
+//				content: url("scss/assets/icon.svg");
+//			}
+//			&:nth-child(4)::before {
+//				content: url("scss/assets/icon.svg");
+//			}
+//			&:nth-child(5)::before {
+//				content: url("scss/assets/icon.svg");
 			}
 		}
 	}
-}
+
 
 //Small screen layout
 #design-selection {

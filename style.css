@@ -79,6 +79,15 @@ a {
 li {
   font-family: "VT323", monospace;
   color: #9149e1; }
+  @media only screen and (max-width: 768px) {
+    li {
+      font-size: 5vw; } }
+  @media only screen and (min-width: 768px) and (max-width: 1600px) {
+    li {
+      font-size: 2vw; } }
+  @media only screen and (min-width: 1600px) {
+    li {
+      font-size: 1.5vw; } }
 
 abbr {
   text-decoration: none; }
@@ -93,12 +102,14 @@ abbr {
     .page-wrapper {
       max-width: 70%;
       margin-left: auto;
-      margin-right: auto; } }
+      margin-right: auto;
+      margin-top: 25px; } }
   @media only screen and (min-width: 1600px) {
     .page-wrapper {
       max-width: 50%;
       margin-left: auto;
-      margin-right: auto; } }
+      margin-right: auto;
+      margin-top: 25px; } }
 
 header {
   background-image: url("scss/assets/blossom-tree.gif"), url("scss/assets/stary-night-1.gif");
@@ -209,6 +220,9 @@ footer {
     footer {
       font-size: 8vw;
       line-height: 1.6; } }
+  @media only screen and (min-width: 768px) and (max-width: 1600px) {
+    footer {
+      font-size: 3vw; } }
 
 #design-archives {
   clear: both;
@@ -218,10 +232,6 @@ footer {
   #design-archives ul {
     padding: 0;
     list-style-type: none; }
-    #design-archives ul li:nth-child(1)::before {
-      content: url("scss/assets/next_btn.svg"); }
-    #design-archives ul li:nth-child(2)::before {
-      content: url("scss/assets/all_btn.svg"); }
 
 #zen-resources {
   float: left;
@@ -230,16 +240,6 @@ footer {
   #zen-resources ul {
     padding: 0;
     list-style-type: none; }
-    #zen-resources ul li:nth-child(1)::before {
-      content: url("scss/assets/icon.svg"); }
-    #zen-resources ul li:nth-child(2)::before {
-      content: url("scss/assets/icon.svg"); }
-    #zen-resources ul li:nth-child(3)::before {
-      content: url("scss/assets/icon.svg"); }
-    #zen-resources ul li:nth-child(4)::before {
-      content: url("scss/assets/icon.svg"); }
-    #zen-resources ul li:nth-child(5)::before {
-      content: url("scss/assets/icon.svg"); }
 
 #design-selection {
   background-color: rgba(255, 255, 255, 0.75); }

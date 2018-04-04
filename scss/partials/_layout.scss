@@ -5,16 +5,19 @@
 	
     @include MQ(S) {
         padding: 25px;
+		
     }
 	@include MQ(M) {
 		max-width: 70%;
 		margin-left: auto;
-		margin-right: auto;     
+		margin-right: auto;
+		margin-top: 25px;
 	}
 	@include MQ(L){
 		max-width: 50%;
 		margin-left: auto;
-		margin-right: auto;  
+		margin-right: auto;
+		margin-top: 25px;
 	}
 }
 

@@ -93,6 +93,16 @@ a {
 li {
 	font-family: $primary-font;
 	color: lighten($color-2, 25%);
+	@include MQ(S) {
+		font-size: 5vw;
+	}
+	@include MQ(M) {
+		font-size: 2vw;
+	}
+	@include MQ(L) {
+		font-size: 1.5vw;
+	}
+	
 }
 
 abbr {
