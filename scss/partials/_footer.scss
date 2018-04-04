@@ -13,6 +13,9 @@ footer {
 		font-size: 8vw;
 		line-height: 1.6;
 	}
+	@include MQ(M) {
+		font-size: 3vw;
+	}
 }
 
 // Places the Archives and Resources at the bottom of the page
